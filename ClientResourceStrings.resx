@@ -1,0 +1,3613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="CompanyNo" xml:space="preserve">
+    <value>Company No</value>
+  </data>
+  <data name="CultureCode" xml:space="preserve">
+    <value>Culture</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MyCompany" xml:space="preserve">
+    <value>My company</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SearchText" xml:space="preserve">
+    <value>Search Text</value>
+  </data>
+  <data name="ShortText" xml:space="preserve">
+    <value>Short Text</value>
+  </data>
+  <data name="Auth_Error_WrongPassword" xml:space="preserve">
+    <value>The current password is incorrect or the new password is invalid.</value>
+  </data>
+  <data name="Auth_Error_EmptyCurrentPassword" xml:space="preserve">
+    <value>You must specify a current password.</value>
+  </data>
+  <data name="Auth_Error_WrongPasswordLength" xml:space="preserve">
+    <value>You must specify a new password of {int 0} or more characters.</value>
+  </data>
+  <data name="Auth_Error_NotMatchingPasswords" xml:space="preserve">
+    <value>The new password and confirmation password do not match.</value>
+  </data>
+  <data name="Auth_Error_EmptyUserName" xml:space="preserve">
+    <value>You must specify a username.</value>
+  </data>
+  <data name="Auth_Error_EmptyPassword" xml:space="preserve">
+    <value>You must specify a password.</value>
+  </data>
+  <data name="Auth_Error_LoginValidationFailure" xml:space="preserve">
+    <value>The username or password provided is incorrect.</value>
+  </data>
+  <data name="Auth_Error_EmptyEmail" xml:space="preserve">
+    <value>You must specify an email address.</value>
+  </data>
+  <data name="Auth_Membership_Error_DuplicateUserName" xml:space="preserve">
+    <value>Username already exists. Please enter a different user name.</value>
+  </data>
+  <data name="Auth_Membership_Error_DuplicateEmail" xml:space="preserve">
+    <value>A username for that e-mail address already exists. Please enter a different e-mail address.</value>
+  </data>
+  <data name="Auth_Membership_Error_InvalidPassword" xml:space="preserve">
+    <value>The password provided is invalid. Please enter a valid password value.</value>
+  </data>
+  <data name="Auth_Membership_Error_InvalidEmail" xml:space="preserve">
+    <value>The e-mail address provided is invalid. Please check the value and try again.</value>
+  </data>
+  <data name="Auth_Membership_Error_InvalidAnswer" xml:space="preserve">
+    <value>The password retrieval answer provided is invalid. Please check the value and try again.</value>
+  </data>
+  <data name="Auth_Membership_Error_InvalidQuestion" xml:space="preserve">
+    <value>The password retrieval question provided is invalid. Please check the value and try again.</value>
+  </data>
+  <data name="Auth_Membership_Error_InvalidUserName" xml:space="preserve">
+    <value>The user name provided is invalid. Please check the value and try again.</value>
+  </data>
+  <data name="Auth_Membership_Error_ProviderError" xml:space="preserve">
+    <value>The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator.</value>
+  </data>
+  <data name="Auth_Membership_Error_UserRejected" xml:space="preserve">
+    <value>The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator.</value>
+  </data>
+  <data name="Auth_Membership_Error_Unknown" xml:space="preserve">
+    <value>An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator.</value>
+  </data>
+  <data name="SiteNo" xml:space="preserve">
+    <value>Site No</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="RegionalSetting" xml:space="preserve">
+    <value>Regional setting</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="CommunicationForm_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CommunicationForm_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="CommunicationForm_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="CommunicationForm_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="Address_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Address_Location" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Address_PostalCode" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="Address_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Address_Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close:"@&lt;&gt;</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Clear_Search" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="LogObjectInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="GPS" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="LastInfo" xml:space="preserve">
+    <value>Last Info</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="OnIt" xml:space="preserve">
+    <value>On It</value>
+  </data>
+  <data name="AtDateTime" xml:space="preserve">
+    <value>at {datetimeoffset 0}</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Posted_As_CheckIn" xml:space="preserve">
+    <value>Checked in</value>
+  </data>
+  <data name="Posted_As_CheckOut" xml:space="preserve">
+    <value>Checked out</value>
+  </data>
+  <data name="Posted_As_Correction" xml:space="preserve">
+    <value>Corrected</value>
+  </data>
+  <data name="Posted_As_Issue" xml:space="preserve">
+    <value>Issued</value>
+  </data>
+  <data name="Posted_As_Load" xml:space="preserve">
+    <value>Loaded</value>
+  </data>
+  <data name="Posted_As_None" xml:space="preserve">
+    <value>No action</value>
+  </data>
+  <data name="Posted_As_Receipt" xml:space="preserve">
+    <value>Receipted</value>
+  </data>
+  <data name="Posted_As_RelocateTo" xml:space="preserve">
+    <value>Relocated</value>
+  </data>
+  <data name="Posted_As_Unload" xml:space="preserve">
+    <value>Unloaded</value>
+  </data>
+  <data name="ExpectedDateTime" xml:space="preserve">
+    <value>Expected Time</value>
+  </data>
+  <data name="ExpectedGPS" xml:space="preserve">
+    <value>Expected GPS</value>
+  </data>
+  <data name="ExpectedTemperature" xml:space="preserve">
+    <value>Expected Temperature</value>
+  </data>
+  <data name="ExpectedWeight" xml:space="preserve">
+    <value>Expected Weight</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="ScheduledTo" xml:space="preserve">
+    <value>Scheduled to</value>
+  </data>
+  <data name="BatchNo" xml:space="preserve">
+    <value>Batch no</value>
+  </data>
+  <data name="ItemNo" xml:space="preserve">
+    <value>Item no</value>
+  </data>
+  <data name="ProductionDate" xml:space="preserve">
+    <value>Production date</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="LogObjectOverview" xml:space="preserve">
+    <value>Log-Object overview</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Error_NoLogObjectFound" xml:space="preserve">
+    <value>No Log-Object found.</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="AtCompany" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="PID" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="Since" xml:space="preserve">
+    <value>Since</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Posting" xml:space="preserve">
+    <value>Posting</value>
+  </data>
+  <data name="BusinessPartner_Short" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="LastPostings" xml:space="preserve">
+    <value>Last postings</value>
+  </data>
+  <data name="BusinessPartner" xml:space="preserve">
+    <value>Business partner</value>
+  </data>
+  <data name="AdvisedPosting" xml:space="preserve">
+    <value>Advised posting</value>
+  </data>
+  <data name="TargetDate" xml:space="preserve">
+    <value>Target date</value>
+  </data>
+  <data name="LogObjectAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="LoadLogObject" xml:space="preserve">
+    <value>Load Log-Object</value>
+  </data>
+  <data name="GeoDataSensor" xml:space="preserve">
+    <value>GPS Sensor</value>
+  </data>
+  <data name="TaraWeight" xml:space="preserve">
+    <value>Tara weight</value>
+  </data>
+  <data name="TemperatureSensor" xml:space="preserve">
+    <value>Temperature Sensor</value>
+  </data>
+  <data name="WeightSensor" xml:space="preserve">
+    <value>Weight Sensor</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="Error_BatchNoMustBeGiven" xml:space="preserve">
+    <value>Batch no. must be given.</value>
+  </data>
+  <data name="Error_InvalidQuantity" xml:space="preserve">
+    <value>{string quantity} is not a valid quantity.</value>
+  </data>
+  <data name="Error_ItemNotFound" xml:space="preserve">
+    <value>Item "{string itemCode}" cannot be found.</value>
+  </data>
+  <data name="Error_QuantityNotPositive" xml:space="preserve">
+    <value>Quantity must be positive.</value>
+  </data>
+  <data name="UnknownLogObject" xml:space="preserve">
+    <value>Unknown Log-Object</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="UnloadLogObject" xml:space="preserve">
+    <value>Unload Log-Object</value>
+  </data>
+  <data name="LogObjectReceipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="LogObjectIssue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ManageLogObjectState" xml:space="preserve">
+    <value>Manage state</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CheckLogObject" xml:space="preserve">
+    <value>Log-Object checking</value>
+  </data>
+  <data name="CheckIn" xml:space="preserve">
+    <value>Check in</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Check out</value>
+  </data>
+  <data name="DropDownListOptionLabel" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="Error_LogObjectMDataMustBeGiven" xml:space="preserve">
+    <value>Log-Object type must be given.</value>
+  </data>
+  <data name="Error_ContentNotOnLogObject" xml:space="preserve">
+    <value>Stock "{string itemCode}" is not on Log-Object.</value>
+  </data>
+  <data name="Info_StockOnLogObject" xml:space="preserve">
+    <value>Stock "{string itemCode}" is on Log-Object.</value>
+  </data>
+  <data name="Stocks" xml:space="preserve">
+    <value>Stocks</value>
+  </data>
+  <data name="Error_ContentByItemNotUniqueOnLogObject" xml:space="preserve">
+    <value>There are more stocks with same itemno "{string itemCode}" on Log-Object.</value>
+  </data>
+  <data name="Error_ContentByItemNotOnLogObject" xml:space="preserve">
+    <value>Stock with itemno "{string itemCode}" is not on Log-Object.</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="BestBeforeDate" xml:space="preserve">
+    <value>Best before</value>
+  </data>
+  <data name="GTIN" xml:space="preserve">
+    <value>GTIN</value>
+  </data>
+  <data name="LabelNo" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="Loaded" xml:space="preserve">
+    <value>Loaded</value>
+  </data>
+  <data name="Loaded_At" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="Loaded_By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="Loaded_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Error_ItemNoMustBeGiven" xml:space="preserve">
+    <value>ItemNo must be given.</value>
+  </data>
+  <data name="Error_QuantityGreaterThanAvailable" xml:space="preserve">
+    <value>Posting quantity is greater than the available quantity</value>
+  </data>
+  <data name="DeviceNo" xml:space="preserve">
+    <value>Device no</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Log on</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember me?</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Auth_Error_LoginFailed" xml:space="preserve">
+    <value>Login was unsuccessful. Please correct the errors and try again.</value>
+  </data>
+  <data name="Auth_Error_EmptyDomain" xml:space="preserve">
+    <value>You must specify a domain.</value>
+  </data>
+  <data name="Auth_Error_DomainValidationFailure" xml:space="preserve">
+    <value>The domain provided is incorrect.</value>
+  </data>
+  <data name="GeoData" xml:space="preserve">
+    <value>Geo data</value>
+  </data>
+  <data name="InformationBag" xml:space="preserve">
+    <value>Information bag</value>
+  </data>
+  <data name="LogObjectDetail" xml:space="preserve">
+    <value>Log-Object detail</value>
+  </data>
+  <data name="ShippingNo" xml:space="preserve">
+    <value>Shipping no</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="UsedState" xml:space="preserve">
+    <value>Used state</value>
+  </data>
+  <data name="LogObjectState_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="LogObjectState_Eliminated" xml:space="preserve">
+    <value>Eliminated</value>
+  </data>
+  <data name="LogObjectState_OnRoad" xml:space="preserve">
+    <value>On road</value>
+  </data>
+  <data name="LogObjectLoadState_Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="LogObjectLoadState_Full" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="LogObjectLoadState_Partial" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="DeviceSerialNo" xml:space="preserve">
+    <value>Device serial no</value>
+  </data>
+  <data name="PostingDate" xml:space="preserve">
+    <value>Posting date</value>
+  </data>
+  <data name="PostingType" xml:space="preserve">
+    <value>Posting type</value>
+  </data>
+  <data name="StockJournal" xml:space="preserve">
+    <value>Stock journal</value>
+  </data>
+  <data name="StockJournals" xml:space="preserve">
+    <value>Journals</value>
+  </data>
+  <data name="ContentOfLogObject" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Error_PostingNotAllowedForLogObject" xml:space="preserve">
+    <value>The posting is not allowed for the Log-Object in this state '{string 0}'.</value>
+  </data>
+  <data name="Notification_DueAdvisedPosting_Detail" xml:space="preserve">
+    <value>{string postingType} on Log-Object '{string pid}' at company '{string companyName}' has not been performed until {datetimeoffset postingDate}!</value>
+  </data>
+  <data name="Notification_DueAdvisedPosting_Header" xml:space="preserve">
+    <value>Warning: Advised posting not performed!</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Log off</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="_ExclamationMark" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Holding</value>
+  </data>
+  <data name="LogObject" xml:space="preserve">
+    <value>Log-Object</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="LogObjectMDataGroup" xml:space="preserve">
+    <value>Log-Object group</value>
+  </data>
+  <data name="QuantitativeInventory" xml:space="preserve">
+    <value>Quantitative inventory</value>
+  </data>
+  <data name="DiscreteInventory" xml:space="preserve">
+    <value>Discrete inventory</value>
+  </data>
+  <data name="Relocation" xml:space="preserve">
+    <value>Relocation</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="Error_InvalidLogObjectMData" xml:space="preserve">
+    <value>Log-Object type is invalid.</value>
+  </data>
+  <data name="ItemsAsQuantity" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="Error_SupplierMustBeGiven" xml:space="preserve">
+    <value>Supplier must be given.</value>
+  </data>
+  <data name="ReceiptQuantitative" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Error_CustomerMustBeGiven" xml:space="preserve">
+    <value>Customer must be given.</value>
+  </data>
+  <data name="IssueQuantitative" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="PhotoImage" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="LogObjectMData" xml:space="preserve">
+    <value>Masterdata</value>
+  </data>
+  <data name="RelocationColumn" xml:space="preserve">
+    <value>Rel.</value>
+  </data>
+  <data name="VariousContent" xml:space="preserve">
+    <value>Various content</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="LogObjectHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="SearchDetails" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
+  <data name="SearchDetailsMore" xml:space="preserve">
+    <value>More...</value>
+  </data>
+  <data name="Error_FromCountGreaterAtToCount" xml:space="preserve">
+    <value>Invalid count values.</value>
+  </data>
+  <data name="Error_FromQuantityGreaterAtToQuantity" xml:space="preserve">
+    <value>Invalid quantity values.</value>
+  </data>
+  <data name="ExcelExport" xml:space="preserve">
+    <value>Export in Excel</value>
+  </data>
+  <data name="Error_EmptySearchParameter" xml:space="preserve">
+    <value>No valid parameter found.</value>
+  </data>
+  <data name="Error_FromDateLaterAtUntilDate" xml:space="preserve">
+    <value>Invalid date values.</value>
+  </data>
+  <data name="Error_InvalidDate" xml:space="preserve">
+    <value>{string date} is not a valid date.</value>
+  </data>
+  <data name="ReceiptUnknown" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Invalid count values." xml:space="preserve">
+    <value>Invalid date!</value>
+  </data>
+  <data name="Error_QuantityGreaterThanAvailableOnLocation" xml:space="preserve">
+    <value>Posting quantity is greater than the available quantity on this location.</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Analyse" xml:space="preserve">
+    <value>Analyse</value>
+  </data>
+  <data name="Functions" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="Deskboard" xml:space="preserve">
+    <value>Deskboard</value>
+  </data>
+  <data name="LogObjectMenu" xml:space="preserve">
+    <value>Log-Object</value>
+  </data>
+  <data name="Persons" xml:space="preserve">
+    <value>Persons</value>
+  </data>
+  <data name="Affiliate" xml:space="preserve">
+    <value>Affiliate</value>
+  </data>
+  <data name="Affiliates" xml:space="preserve">
+    <value>Affiliates</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RelatedInformations" xml:space="preserve">
+    <value>Related informations</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Sites" xml:space="preserve">
+    <value>Sites</value>
+  </data>
+  <data name="Error_EmptyContactInfo" xml:space="preserve">
+    <value>The contact information must be given.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ParentCompany" xml:space="preserve">
+    <value>Parent company</value>
+  </data>
+  <data name="Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="BusinessPartners" xml:space="preserve">
+    <value>Business partners</value>
+  </data>
+  <data name="Error_EmptyDomainName" xml:space="preserve">
+    <value>Domain must be given.</value>
+  </data>
+  <data name="NewCompany" xml:space="preserve">
+    <value>New company</value>
+  </data>
+  <data name="NominalSize" xml:space="preserve">
+    <value>Nominal size</value>
+  </data>
+  <data name="BaseWeight" xml:space="preserve">
+    <value>Base weight</value>
+  </data>
+  <data name="BaseWeightQuantity" xml:space="preserve">
+    <value>Base weight quantity</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="ContentQuantity" xml:space="preserve">
+    <value>Content quantity</value>
+  </data>
+  <data name="Container" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="CustomId" xml:space="preserve">
+    <value>Tag-ID</value>
+  </data>
+  <data name="Storage" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="Partnership" xml:space="preserve">
+    <value>Partnership</value>
+  </data>
+  <data name="CommunicationForm_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Error_EmptyPersonLastName" xml:space="preserve">
+    <value>The last name must be given.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Error_EmptyPersonFirstName" xml:space="preserve">
+    <value>The first name must be given.</value>
+  </data>
+  <data name="NewPerson" xml:space="preserve">
+    <value>New person</value>
+  </data>
+  <data name="CustomProperties" xml:space="preserve">
+    <value>Custom properties</value>
+  </data>
+  <data name="CustomProps" xml:space="preserve">
+    <value>Custom props</value>
+  </data>
+  <data name="LogObjectCustomProperties" xml:space="preserve">
+    <value>Log-Object custom properties</value>
+  </data>
+  <data name="LogObjectMDataCustomProperties" xml:space="preserve">
+    <value>Type custom properties</value>
+  </data>
+  <data name="Error_EmptyLogId" xml:space="preserve">
+    <value>Log-Object must be given.</value>
+  </data>
+  <data name="Error_EmptyStorage" xml:space="preserve">
+    <value>Storage must be given.</value>
+  </data>
+  <data name="Error_ExistingLogId" xml:space="preserve">
+    <value>Log-Object is already in use.</value>
+  </data>
+  <data name="LogObjectCreation" xml:space="preserve">
+    <value>Create Log-Object</value>
+  </data>
+  <data name="Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Info_NoHistoryFound" xml:space="preserve">
+    <value>No history found.</value>
+  </data>
+  <data name="Error_DuplicateOrderReferenceNumber" xml:space="preserve">
+    <value>The given order reference already exists. Please enter a different one.</value>
+  </data>
+  <data name="Error_EmptyOrderReferenceNumber" xml:space="preserve">
+    <value>Order reference number must be given.</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="OrderReference" xml:space="preserve">
+    <value>Order management</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="LogObjectSearchCountText" xml:space="preserve">
+    <value>{int count} Log-Objects found. (please add further criteria)</value>
+  </data>
+  <data name="ActualOrderReference" xml:space="preserve">
+    <value>Actual order reference</value>
+  </data>
+  <data name="Error_InvalidCharactersInText" xml:space="preserve">
+    <value>Invalid characters in text.</value>
+  </data>
+  <data name="Structure" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="Info_NoStructureFound" xml:space="preserve">
+    <value>No structure found.</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Search result</value>
+  </data>
+  <data name="LastProcessDate" xml:space="preserve">
+    <value>Last process date</value>
+  </data>
+  <data name="LogObjectProcessing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="NextProcessDate" xml:space="preserve">
+    <value>Next process date</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ProcessSubType" xml:space="preserve">
+    <value>Process sub type</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Error_GroupMustBeGiven" xml:space="preserve">
+    <value>Type must be given.</value>
+  </data>
+  <data name="Error_ParentGroupMustBeGiven" xml:space="preserve">
+    <value>Group must be given.</value>
+  </data>
+  <data name="PageTitle_CustomProperties" xml:space="preserve">
+    <value>[{string LogId}] Custom Properties</value>
+  </data>
+  <data name="PageTitle_CustomPropertiesEdit" xml:space="preserve">
+    <value>[{string LogId}] Edit Custom Properties</value>
+  </data>
+  <data name="PageTitle_Edit" xml:space="preserve">
+    <value>[{string LogId}] Edit</value>
+  </data>
+  <data name="PageTitle_History" xml:space="preserve">
+    <value>[{string LogId}] History</value>
+  </data>
+  <data name="PageTitle_LogObject" xml:space="preserve">
+    <value>Info Log-Object: [{string LogId}]</value>
+  </data>
+  <data name="PageTitle_Processing" xml:space="preserve">
+    <value>Processing [{string LogId}]</value>
+  </data>
+  <data name="PageTitle_Structure" xml:space="preserve">
+    <value>Structure Log-Object: [{string LogId}]</value>
+  </data>
+  <data name="PageTitle_StructureHistory" xml:space="preserve">
+    <value>[{string LogId}] Structure History</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="CustomPropertyType_bool" xml:space="preserve">
+    <value>Bool</value>
+  </data>
+  <data name="CustomPropertyType_DateTime" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CustomPropertyType_double" xml:space="preserve">
+    <value>Floating point number</value>
+  </data>
+  <data name="CustomPropertyType_int" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="CustomPropertyType_string" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="EntityType" xml:space="preserve">
+    <value>Entity type</value>
+  </data>
+  <data name="CustomProperty" xml:space="preserve">
+    <value>Custom property</value>
+  </data>
+  <data name="Error_AmbiguousValues" xml:space="preserve">
+    <value>Ambiguous values.</value>
+  </data>
+  <data name="Error_EmptyName" xml:space="preserve">
+    <value>Name must be given.</value>
+  </data>
+  <data name="Error_EmptyValue" xml:space="preserve">
+    <value>Value must be given.</value>
+  </data>
+  <data name="Internal" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="Localization" xml:space="preserve">
+    <value>Localization</value>
+  </data>
+  <data name="Nullable" xml:space="preserve">
+    <value>Nullable</value>
+  </data>
+  <data name="StrictValues" xml:space="preserve">
+    <value>Strict values</value>
+  </data>
+  <data name="Error_EmptyCulture" xml:space="preserve">
+    <value>Culture must be given.</value>
+  </data>
+  <data name="LocalizedValues" xml:space="preserve">
+    <value>Localized values</value>
+  </data>
+  <data name="Error_EmptyEntityType" xml:space="preserve">
+    <value>Entity type must be given.</value>
+  </data>
+  <data name="Error_EmptyType" xml:space="preserve">
+    <value>Type must be given.</value>
+  </data>
+  <data name="Confirm_DeleteCustomProperty" xml:space="preserve">
+    <value>Deleting custom property. Are you sure?</value>
+  </data>
+  <data name="Error_CustomPropertyHasValues" xml:space="preserve">
+    <value>Custom property has values!</value>
+  </data>
+  <data name="Info_CustomPropertyDeleted" xml:space="preserve">
+    <value>Custom property successfully deleted.</value>
+  </data>
+  <data name="Error_EmptyLogObjectMDataGroup" xml:space="preserve">
+    <value>Group must be given.</value>
+  </data>
+  <data name="Error_EmptyLogObjectMData" xml:space="preserve">
+    <value>Masterdata must be given.</value>
+  </data>
+  <data name="EditState" xml:space="preserve">
+    <value>Edit state</value>
+  </data>
+  <data name="Error_StateMustBeGiven" xml:space="preserve">
+    <value>State must be given.</value>
+  </data>
+  <data name="NextProcessUntil" xml:space="preserve">
+    <value>Next process until</value>
+  </data>
+  <data name="LogObjectRelocation" xml:space="preserve">
+    <value>Relocation</value>
+  </data>
+  <data name="PageTitle_Relocation" xml:space="preserve">
+    <value>Relocation [{string LogId}]</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="NewSite" xml:space="preserve">
+    <value>New site</value>
+  </data>
+  <data name="Error_BranchMustBeGiven" xml:space="preserve">
+    <value>Branch must be given.</value>
+  </data>
+  <data name="LogObjectCreationAutoGenerated" xml:space="preserve">
+    <value>Auto Generated - Click for input</value>
+  </data>
+  <data name="CustomPropertyOrder" xml:space="preserve">
+    <value>Custom property order</value>
+  </data>
+  <data name="Downward" xml:space="preserve">
+    <value>Downward</value>
+  </data>
+  <data name="Error_ReorderFailed" xml:space="preserve">
+    <value>Reorder failed.</value>
+  </data>
+  <data name="Upward" xml:space="preserve">
+    <value>Upward</value>
+  </data>
+  <data name="LogObjectCustomPropertyAssignmentType" xml:space="preserve">
+    <value>Log-Object custom property assingment</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Error_EmptyReference" xml:space="preserve">
+    <value>Reference must be given.</value>
+  </data>
+  <data name="Error_EmptyProcessSubType" xml:space="preserve">
+    <value>Process sub type must be given.</value>
+  </data>
+  <data name="ResetFilteringConditions" xml:space="preserve">
+    <value>Reset filtering conditions</value>
+  </data>
+  <data name="Auth_Error_SignInSiteValidationFailure" xml:space="preserve">
+    <value>The site provided is incorrect.</value>
+  </data>
+  <data name="Auth_Error_EmptySite" xml:space="preserve">
+    <value>You must specify a site.</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="ProfilePicture" xml:space="preserve">
+    <value>Profile Picture</value>
+  </data>
+  <data name="IssueKiosk" xml:space="preserve">
+    <value>Issue Kiosk</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="IssueQuantity" xml:space="preserve">
+    <value>Issue Quantity</value>
+  </data>
+  <data name="IssueQuantityError" xml:space="preserve">
+    <value>Issue quantity needs to be lower or equal then the original value.</value>
+  </data>
+  <data name="Info_CannotFindLogObject" xml:space="preserve">
+    <value>Can not find an object with the specified criteria!</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="CorrectionKiosk" xml:space="preserve">
+    <value>Correction Kiosk</value>
+  </data>
+  <data name="CorrectionQuantity" xml:space="preserve">
+    <value>Correction quantity</value>
+  </data>
+  <data name="Kiosk_IssueCompletedDialog" xml:space="preserve">
+    <value>Issue completed, close the dialog to return to home page.</value>
+  </data>
+  <data name="Kiosk_CorrectionCompletedDialog" xml:space="preserve">
+    <value>Correction completed, close the dialog to return to home page.</value>
+  </data>
+  <data name="WithContent" xml:space="preserve">
+    <value>With content</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>Usergroup</value>
+  </data>
+  <data name="UserGroups" xml:space="preserve">
+    <value>Usergroups</value>
+  </data>
+  <data name="NewUserGroup" xml:space="preserve">
+    <value>New usergroup</value>
+  </data>
+  <data name="ActualBy" xml:space="preserve">
+    <value>At company</value>
+  </data>
+  <data name="ChildGroups" xml:space="preserve">
+    <value>Childgroups</value>
+  </data>
+  <data name="ParentGroups" xml:space="preserve">
+    <value>Parent groups</value>
+  </data>
+  <data name="ParentGroup" xml:space="preserve">
+    <value>Parent group</value>
+  </data>
+  <data name="Error_UserGroupMustBeGiven" xml:space="preserve">
+    <value>Usergroup must be given.</value>
+  </data>
+  <data name="Error_PersonMustBeGiven" xml:space="preserve">
+    <value>Person must be given.</value>
+  </data>
+  <data name="Storages" xml:space="preserve">
+    <value>Storages</value>
+  </data>
+  <data name="Coordinate" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="NewStorage" xml:space="preserve">
+    <value>New storage</value>
+  </data>
+  <data name="Error_EmptyCoordinate" xml:space="preserve">
+    <value>Coordinate must be given.</value>
+  </data>
+  <data name="Error_EmptyRole" xml:space="preserve">
+    <value>Role must be given.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Error_EmptyFromStorage" xml:space="preserve">
+    <value>From storage must be given.</value>
+  </data>
+  <data name="Error_EmptyToStorage" xml:space="preserve">
+    <value>To storage must be given.</value>
+  </data>
+  <data name="FromStorage" xml:space="preserve">
+    <value>From storage</value>
+  </data>
+  <data name="ToStorage" xml:space="preserve">
+    <value>To storage</value>
+  </data>
+  <data name="Local" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="UserName_Short" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="StructureHistory" xml:space="preserve">
+    <value>Structure history</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="EditPassword" xml:space="preserve">
+    <value>Edit password</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="Error_InvalidUserName" xml:space="preserve">
+    <value>The format of the username (email) is invalid.</value>
+  </data>
+  <data name="Error_UsernameAlreadyExist" xml:space="preserve">
+    <value>Username already exists.</value>
+  </data>
+  <data name="Error_InvalidPassword" xml:space="preserve">
+    <value>The format of the password is invalid (min. 6 chars: min 1 lower and upper case, digit). </value>
+  </data>
+  <data name="Error_DifferentPassword" xml:space="preserve">
+    <value>Invalid password confirmation.</value>
+  </data>
+  <data name="Error_WrongPassword" xml:space="preserve">
+    <value>Wrong password</value>
+  </data>
+  <data name="Error_PasswordChangeFailed" xml:space="preserve">
+    <value>Password change failed</value>
+  </data>
+  <data name="Message_DeleteAccountConfirmation" xml:space="preserve">
+    <value>Do you really want to delete the account?</value>
+  </data>
+  <data name="Message_ChangePasswordConfirmation" xml:space="preserve">
+    <value>Do you really want to change the password?</value>
+  </data>
+  <data name="Error_CustomPropertyValueMustBeGiven" xml:space="preserve">
+    <value>{string cpName } must be given.</value>
+  </data>
+  <data name="Message_ExistingCustomId" xml:space="preserve">
+    <value>There's already a Log-Object with this Tag-ID! Do you want to proceed?</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="Username_Email" xml:space="preserve">
+    <value>Username (Email)</value>
+  </data>
+  <data name="ToLocationTag" xml:space="preserve">
+    <value>To storage</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="Message_ActualSiteMissing" xml:space="preserve">
+    <value>Actual site has not been given yet.</value>
+  </data>
+  <data name="GlobalValueSet" xml:space="preserve">
+    <value>Global value set</value>
+  </data>
+  <data name="PosterCompany" xml:space="preserve">
+    <value>Poster company</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="FormatHint" xml:space="preserve">
+    <value>Format hint</value>
+  </data>
+  <data name="Authorisation_Error" xml:space="preserve">
+    <value>Authorisation error</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="HTTP_Error" xml:space="preserve">
+    <value>HTTP error</value>
+  </data>
+  <data name="Error_Description" xml:space="preserve">
+    <value>A(n) {string errorType} has occured. </value>
+  </data>
+  <data name="Error_Solution" xml:space="preserve">
+    <value>Please contact your system administrator!</value>
+  </data>
+  <data name="Grant" xml:space="preserve">
+    <value>Grant</value>
+  </data>
+  <data name="Revoke" xml:space="preserve">
+    <value>Revoke</value>
+  </data>
+  <data name="LogObject_Error" xml:space="preserve">
+    <value>Log-Object error</value>
+  </data>
+  <data name="Error_LogObjectAccess_Solution" xml:space="preserve">
+    <value>The Log-Object is not accessible on this site.</value>
+  </data>
+  <data name="InsistFilter_Description" xml:space="preserve">
+    <value>Please type a word filtering your serarch!</value>
+  </data>
+  <data name="LogObjectMDataGroups" xml:space="preserve">
+    <value>Log-Object groups</value>
+  </data>
+  <data name="NewLogObjectMData" xml:space="preserve">
+    <value>New Log-Object masterdata</value>
+  </data>
+  <data name="StoreBaseUom" xml:space="preserve">
+    <value>StoreBaseUom</value>
+  </data>
+  <data name="BaseWeightUnit" xml:space="preserve">
+    <value>BaseWeightUnit</value>
+  </data>
+  <data name="DimensionUnit" xml:space="preserve">
+    <value>DimensionUnit</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="MaxTemperature" xml:space="preserve">
+    <value>MaxTemperature</value>
+  </data>
+  <data name="MinTemperature" xml:space="preserve">
+    <value>MinTemperature</value>
+  </data>
+  <data name="TemperatureUnit" xml:space="preserve">
+    <value>TemperatureUnit</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Error_EmptyItemNo" xml:space="preserve">
+    <value>Item no must be given.</value>
+  </data>
+  <data name="NewLogObjectMDataGroup" xml:space="preserve">
+    <value>New Log-Object group</value>
+  </data>
+  <data name="Error_LogObjectMDataGroupMustBeGiven" xml:space="preserve">
+    <value>Log-Object group must be given.</value>
+  </data>
+  <data name="Error_LogObjectState_Solution" xml:space="preserve">
+    <value>The Log-Object state must be "active" to perform this operation.</value>
+  </data>
+  <data name="LogObjectState_Missing" xml:space="preserve">
+    <value>Missing</value>
+  </data>
+  <data name="CreateCompany" xml:space="preserve">
+    <value>Create company</value>
+  </data>
+  <data name="SystemAdministration" xml:space="preserve">
+    <value>System administration</value>
+  </data>
+  <data name="Confirm_UnsetProfilePicture" xml:space="preserve">
+    <value>Do you really want to un-set your {string ppType}?</value>
+  </data>
+  <data name="Error_EmptyProfilePicture" xml:space="preserve">
+    <value>{string ppType } must be given.</value>
+  </data>
+  <data name="MyCompanyStructure" xml:space="preserve">
+    <value>My company structure</value>
+  </data>
+  <data name="Auth_Error_ApplicationAccessFailure" xml:space="preserve">
+    <value>Your account is not allowed to authenticate.</value>
+  </data>
+  <data name="Error_LogObjectRelocation" xml:space="preserve">
+    <value>This Log-Object is not available for relocation.</value>
+  </data>
+  <data name="Error_EmptyFile" xml:space="preserve">
+    <value>File must be given.</value>
+  </data>
+  <data name="Error_MinValueGreaterThanMaxValue" xml:space="preserve">
+    <value>Minimum value is greater than maximum value. </value>
+  </data>
+  <data name="ConfirmLogOutOperation" xml:space="preserve">
+    <value>You will be logged out after performing this operation. Do you still want to continue?</value>
+  </data>
+  <data name="ScanResult" xml:space="preserve">
+    <value>Scan result</value>
+  </data>
+  <data name="LastInventoryUntil" xml:space="preserve">
+    <value>Last inventory until</value>
+  </data>
+  <data name="LogObjectInventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartInventory" xml:space="preserve">
+    <value>Start inventory</value>
+  </data>
+  <data name="LastInventoryUntilDate" xml:space="preserve">
+    <value>Last inventory until: {0}</value>
+  </data>
+  <data name="RestartInventory" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="SelectAllForInventoryConfirmation" xml:space="preserve">
+    <value>Select all for confirmation</value>
+  </data>
+  <data name="SelectAllForInventoryRelocation" xml:space="preserve">
+    <value>Select all for relocation</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>Unselect all</value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>Scanning</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="OrderReference_Add" xml:space="preserve">
+    <value>Add order</value>
+  </data>
+  <data name="OrderReference_Delete" xml:space="preserve">
+    <value>Delete order</value>
+  </data>
+  <data name="RemoveAll" xml:space="preserve">
+    <value>Remove all</value>
+  </data>
+  <data name="Relocate" xml:space="preserve">
+    <value>Relocate</value>
+  </data>
+  <data name="Auth_Error_DeviceValidationFailure" xml:space="preserve">
+    <value>The device provided is incorrect.</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="PostingRequestType_Anonymous" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="PostingRequestType_Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="PostingRequestType_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="DeviceSettings" xml:space="preserve">
+    <value>Device settings</value>
+  </data>
+  <data name="DeviceComponent" xml:space="preserve">
+    <value>Device component</value>
+  </data>
+  <data name="RFIDScannerIdentificationPowerLevel" xml:space="preserve">
+    <value>Identification power level (%)</value>
+  </data>
+  <data name="RFIDScannerVolumeLevel" xml:space="preserve">
+    <value>Volume level (%)</value>
+  </data>
+  <data name="RFIDScannerPollingPowerLevel" xml:space="preserve">
+    <value>Polling power level (%)</value>
+  </data>
+  <data name="CurrentDeviceComponent" xml:space="preserve">
+    <value>Current device component</value>
+  </data>
+  <data name="RFIDScannerActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="RFIDScannerMode" xml:space="preserve">
+    <value>Scanning node</value>
+  </data>
+  <data name="RFIDScannerMode_Identification" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="RFIDScannerMode_Polling" xml:space="preserve">
+    <value>Polling</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="FormatSetting" xml:space="preserve">
+    <value>Format setting</value>
+  </data>
+  <data name="GroupBy" xml:space="preserve">
+    <value>Group by</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="OrderBy" xml:space="preserve">
+    <value>Order by</value>
+  </data>
+  <data name="Entrants" xml:space="preserve">
+    <value>Entrants</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="RouteNo" xml:space="preserve">
+    <value>Route no</value>
+  </data>
+  <data name="NewRoute" xml:space="preserve">
+    <value>New route</value>
+  </data>
+  <data name="Error_EmptyRouteNo" xml:space="preserve">
+    <value>Route no must be given.</value>
+  </data>
+  <data name="Routes" xml:space="preserve">
+    <value>Routes</value>
+  </data>
+  <data name="DynamicCalculated" xml:space="preserve">
+    <value>Calculated</value>
+  </data>
+  <data name="DynamicValidated" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="DynamicValidationFailureMessage" xml:space="preserve">
+    <value>Validation failure message</value>
+  </data>
+  <data name="Error_EmptyScriptCode" xml:space="preserve">
+    <value>Script code must be given.</value>
+  </data>
+  <data name="Error_InvalidScriptSyntax" xml:space="preserve">
+    <value>Script has syntax error: {string message}</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Maximum value</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Mininum value</value>
+  </data>
+  <data name="ScriptCode" xml:space="preserve">
+    <value>Script code</value>
+  </data>
+  <data name="Scripting" xml:space="preserve">
+    <value>Scripting</value>
+  </data>
+  <data name="ScriptPriority" xml:space="preserve">
+    <value>Script priority</value>
+  </data>
+  <data name="SyntaxCheck" xml:space="preserve">
+    <value>Check syntax</value>
+  </data>
+  <data name="CalculatedValue" xml:space="preserve">
+    <value>Calculated value</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Run script</value>
+  </data>
+  <data name="SaveScript" xml:space="preserve">
+    <value>Save script</value>
+  </data>
+  <data name="TestScript" xml:space="preserve">
+    <value>Test script</value>
+  </data>
+  <data name="ValidationFailure" xml:space="preserve">
+    <value>The value has been denied: {0}</value>
+  </data>
+  <data name="ValidationSuccess" xml:space="preserve">
+    <value>The value has been accepted.</value>
+  </data>
+  <data name="DeviceProperties" xml:space="preserve">
+    <value>Device properties</value>
+  </data>
+  <data name="PasteIntoScript" xml:space="preserve">
+    <value>Paste into script</value>
+  </data>
+  <data name="Error_InvalidStorageOfSite" xml:space="preserve">
+    <value>The chosen storage: {string coordinate} is invalid under the site: {string siteName}.</value>
+  </data>
+  <data name="Error_InvalidStorageOfRoute" xml:space="preserve">
+    <value>The chosen storage: {string coordinate} is invalid under the route: {string routeNo}.</value>
+  </data>
+  <data name="Error_CustomPropertyMustBeGiven" xml:space="preserve">
+    <value>Custom property must be given.</value>
+  </data>
+  <data name="Error_NotUniqueId" xml:space="preserve">
+    <value>The ID is not unique.</value>
+  </data>
+  <data name="Error_SameFromToStorage" xml:space="preserve">
+    <value>The Log-Object is already in the target storage.</value>
+  </data>
+  <data name="ScanResult_Empty" xml:space="preserve">
+    <value>The scanning was unsuccessful.</value>
+  </data>
+  <data name="ScanResult_Existing" xml:space="preserve">
+    <value>The scanned ID is already in use.</value>
+  </data>
+  <data name="ScanResult_NonUnique" xml:space="preserve">
+    <value>The scanned ID is not unique.</value>
+  </data>
+  <data name="ScanResult_Unidentified" xml:space="preserve">
+    <value>The scanned ID is not in use.</value>
+  </data>
+  <data name="StartScan" xml:space="preserve">
+    <value>Please start the scanning.</value>
+  </data>
+  <data name="FreeText" xml:space="preserve">
+    <value>Free text</value>
+  </data>
+  <data name="Informations" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="LogObjectMeasurement" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="Postings" xml:space="preserve">
+    <value>Postings</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="SelectDevice" xml:space="preserve">
+    <value>Select device</value>
+  </data>
+  <data name="Info_NoCustomPropertyFound" xml:space="preserve">
+    <value>No custom properties have been found.</value>
+  </data>
+  <data name="Info_NoDetailsFound" xml:space="preserve">
+    <value>No details have been found.</value>
+  </data>
+  <data name="LogId" xml:space="preserve">
+    <value>Log-ID</value>
+  </data>
+  <data name="Info_NoResultsFound" xml:space="preserve">
+    <value>No results have been found.</value>
+  </data>
+  <data name="Report_Create" xml:space="preserve">
+    <value>Create report</value>
+  </data>
+  <data name="Report_Open" xml:space="preserve">
+    <value>Open report</value>
+  </data>
+  <data name="ScanInProgress" xml:space="preserve">
+    <value>The scanning is in progress.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="ScannerType_Barcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="ScannerType_Imager" xml:space="preserve">
+    <value>Imager</value>
+  </data>
+  <data name="ScannerType_RFID_HF" xml:space="preserve">
+    <value>RFID</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="DynamicScript" xml:space="preserve">
+    <value>Dynamic script</value>
+  </data>
+  <data name="Confirm_DeleteLogObjectScripting" xml:space="preserve">
+    <value>Deleting Log-ID scripting. Are you sure?</value>
+  </data>
+  <data name="Confirm_DeleteDynamicScript" xml:space="preserve">
+    <value>Deleting dynamic script. Are you sure?</value>
+  </data>
+  <data name="Error_EmptyExtensionPoint" xml:space="preserve">
+    <value>Extension point must be given.</value>
+  </data>
+  <data name="Error_EmptyUsage" xml:space="preserve">
+    <value>Usage must be given.</value>
+  </data>
+  <data name="Error_EmptyDynamicScript" xml:space="preserve">
+    <value>Dynamic script must be given.</value>
+  </data>
+  <data name="ExtensionPoint" xml:space="preserve">
+    <value>Extension point</value>
+  </data>
+  <data name="Info_LogObjectScriptingDeleted" xml:space="preserve">
+    <value>Log-ID scripting successfully deleted.</value>
+  </data>
+  <data name="Info_DynamicScriptDeleted" xml:space="preserve">
+    <value>Dynamic script successfully deleted.</value>
+  </data>
+  <data name="LogObjectScripting" xml:space="preserve">
+    <value>Log-Object scripting</value>
+  </data>
+  <data name="LogObjectScriptings" xml:space="preserve">
+    <value>Log-Object scriptings</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="DynamicScriptErrorMessage" xml:space="preserve">
+    <value>Validation error message</value>
+  </data>
+  <data name="DynamicScripts" xml:space="preserve">
+    <value>Dynamic scripts</value>
+  </data>
+  <data name="DynamicScriptWarningMessage" xml:space="preserve">
+    <value>Validation warning message</value>
+  </data>
+  <data name="ScannerType_RFID_UHF" xml:space="preserve">
+    <value>RFID</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="LogObjectValidation" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Error_LogObjectProcess_Solution" xml:space="preserve">
+    <value>The Log-Object state must be "active" or "eliminated" to perform this operation.</value>
+  </data>
+  <data name="Auth_Membership_Error_DeleteUserFailed" xml:space="preserve">
+    <value>User deletion failed.</value>
+  </data>
+  <data name="UsersGuide" xml:space="preserve">
+    <value>User's guide</value>
+  </data>
+  <data name="Error_DomainAlreadyExists" xml:space="preserve">
+    <value>The given domain already exists.</value>
+  </data>
+  <data name="DynamicScriptAlteration" xml:space="preserve">
+    <value>Alteration</value>
+  </data>
+  <data name="DynamicScriptValidation" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="Error_ExtensionPointNotSuitableForAlterationScript" xml:space="preserve">
+    <value>Extension point is not suitable for alteration script.</value>
+  </data>
+  <data name="AllowsUpdate" xml:space="preserve">
+    <value>Allows update</value>
+  </data>
+  <data name="LogObjectBulkRelocation" xml:space="preserve">
+    <value>Bulk relocation</value>
+  </data>
+  <data name="DataAccess" xml:space="preserve">
+    <value>Data access</value>
+  </data>
+  <data name="DataAccess_Extended" xml:space="preserve">
+    <value>Extended data access</value>
+  </data>
+  <data name="Confirm_UniquenessViolation_LogObjectMDataGroup" xml:space="preserve">
+    <value>A Log-Object group is already exists with this name. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_UniquenessViolation_LogObjectMData" xml:space="preserve">
+    <value>A masterdata is already exists with this item no. Do you still want to continue?</value>
+  </data>
+  <data name="Info_SingleRelocationCompleted" xml:space="preserve">
+    <value>Relocation on Log-Object "{string operativeId}" completed sucessfully. </value>
+  </data>
+  <data name="Info_BulkRelocationLogObjectCount" xml:space="preserve">
+    <value>Relocate {int count} Log-Objects</value>
+  </data>
+  <data name="GoOn" xml:space="preserve">
+    <value>Go on</value>
+  </data>
+  <data name="Error_LogObjectBulkRelocation" xml:space="preserve">
+    <value>Log-Object '{string logId}' is cannot be relocated.</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>A fatal error has occurred. The application will be terminated.</value>
+  </data>
+  <data name="Error_MissingOrInvalid" xml:space="preserve">
+    <value>Missing or invalid:</value>
+  </data>
+  <data name="ValidScriptSyntax" xml:space="preserve">
+    <value>Script syntax is valid.</value>
+  </data>
+  <data name="Error_DynamicScriptUsed" xml:space="preserve">
+    <value>Dynamic script is still being used.</value>
+  </data>
+  <data name="Error_InvalidUsage" xml:space="preserve">
+    <value>Usage is invalid.</value>
+  </data>
+  <data name="Confirm_BulkRelocationWithLocalLogObjects" xml:space="preserve">
+    <value>{int count} selected Log-Objects are already on the target storage. Do you still want to continue with the rest?</value>
+  </data>
+  <data name="Error_BulkRelocationOnlyLocalLogObjects" xml:space="preserve">
+    <value>The selected Log-Objects are already on the target storage.</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Info_CustomPropertyGroupDeleted" xml:space="preserve">
+    <value>Custom property group successfully deleted.</value>
+  </data>
+  <data name="CustomPropertyGroups" xml:space="preserve">
+    <value>Custom property groups</value>
+  </data>
+  <data name="Error_EmptyCustomPropertyGroup" xml:space="preserve">
+    <value>Custom property group must be given.</value>
+  </data>
+  <data name="CronExpression" xml:space="preserve">
+    <value>Cron expression</value>
+  </data>
+  <data name="CustomPropertyType_Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="Error_EmptyCronExpression" xml:space="preserve">
+    <value>Cron expression must be given.</value>
+  </data>
+  <data name="Error_EmptyExecutionTime" xml:space="preserve">
+    <value>Execution time must be given.</value>
+  </data>
+  <data name="Error_EmptyLeadInterval" xml:space="preserve">
+    <value>Lead interval must be given.</value>
+  </data>
+  <data name="Error_EmptyLeadIntervalUnit" xml:space="preserve">
+    <value>Lead interval unit must be given.</value>
+  </data>
+  <data name="Error_EmptyRepeatInterval" xml:space="preserve">
+    <value>Repeat interval must be given.</value>
+  </data>
+  <data name="Error_EmptyRepeatIntervalUnit" xml:space="preserve">
+    <value>Repeat interval unit must be given.</value>
+  </data>
+  <data name="Error_InvalidCronExpression" xml:space="preserve">
+    <value>Cron expression is invalid.</value>
+  </data>
+  <data name="SchedulingType" xml:space="preserve">
+    <value>Scheduling type</value>
+  </data>
+  <data name="SchedulingType_CalendarInterval" xml:space="preserve">
+    <value>Calendar interval</value>
+  </data>
+  <data name="SchedulingType_CronExpression" xml:space="preserve">
+    <value>Cron</value>
+  </data>
+  <data name="SchedulingType_SingleTime" xml:space="preserve">
+    <value>Single time</value>
+  </data>
+  <data name="ExecutionTime" xml:space="preserve">
+    <value>Execution time</value>
+  </data>
+  <data name="SchedulingIntervalUnit_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="SchedulingIntervalUnit_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="SchedulingIntervalUnit_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="SchedulingIntervalUnit_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="LeadInterval" xml:space="preserve">
+    <value>Lead interval</value>
+  </data>
+  <data name="LeadIntervalUnit" xml:space="preserve">
+    <value>Lead interval unit</value>
+  </data>
+  <data name="RepeatInterval" xml:space="preserve">
+    <value>Repeat interval</value>
+  </data>
+  <data name="RepeatIntervalUnit" xml:space="preserve">
+    <value>Repeat interval unit</value>
+  </data>
+  <data name="Confirm_RemoveLogObjectCustomProperty" xml:space="preserve">
+    <value>Removing Log-Object custom property. Are you sure?</value>
+  </data>
+  <data name="Info_LogObjectCustomPropertyRemoved" xml:space="preserve">
+    <value>Log-Object custom property successfully removed.</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="Confirm_RecalculateTaskDeadline" xml:space="preserve">
+    <value>Do you want to recalculate the deadline?</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Deadline</value>
+  </data>
+  <data name="Error_EmptyDeadline" xml:space="preserve">
+    <value>Deadline must be given.</value>
+  </data>
+  <data name="Error_EmptyState" xml:space="preserve">
+    <value>State must be given.</value>
+  </data>
+  <data name="LeadTime" xml:space="preserve">
+    <value>Lead time</value>
+  </data>
+  <data name="Error_LeadTimeMustPrecedeOrEqualDeadline" xml:space="preserve">
+    <value>Lead time must precede or equal to the deadline.</value>
+  </data>
+  <data name="Error_EmptyCustomProperty" xml:space="preserve">
+    <value>Custom property must be given.</value>
+  </data>
+  <data name="Confirm_DeleteCustomPropertyGroup" xml:space="preserve">
+    <value>Deleting custom property group. Are you sure?</value>
+  </data>
+  <data name="Changes" xml:space="preserve">
+    <value>Changes</value>
+  </data>
+  <data name="WithChanges" xml:space="preserve">
+    <value>With changes</value>
+  </data>
+  <data name="WithoutChanges" xml:space="preserve">
+    <value>Without changes</value>
+  </data>
+  <data name="CompanyLogo" xml:space="preserve">
+    <value>Company logo</value>
+  </data>
+  <data name="Error_CustomPropertyMissing" xml:space="preserve">
+    <value>Please add the Log-Object custom properties</value>
+  </data>
+  <data name="Error_ScannedValueIsNotNumericType" xml:space="preserve">
+    <value>The scanned value is not a numeric type.</value>
+  </data>
+  <data name="InvalidFormat" xml:space="preserve">
+    <value>Invalid format</value>
+  </data>
+  <data name="Info_NoValidResultsFound" xml:space="preserve">
+    <value>No valid results have been found.</value>
+  </data>
+  <data name="ScanResult_Invalid" xml:space="preserve">
+    <value>The scanned ID is not valid.</value>
+  </data>
+  <data name="Confirm_SearchCountAboveThreshold" xml:space="preserve">
+    <value>With these restrictions, this search yields too large result set. Do you want to continue?</value>
+  </data>
+  <data name="LogObjectPromptRelocation" xml:space="preserve">
+    <value>Prompt relocation</value>
+  </data>
+  <data name="Error_EmptyNextProcessDate" xml:space="preserve">
+    <value>Next process date must be given.</value>
+  </data>
+  <data name="Error_EmptyProcessDate" xml:space="preserve">
+    <value>Process date must be given.</value>
+  </data>
+  <data name="Error_EmptyProcessTask" xml:space="preserve">
+    <value>Process task must be given.</value>
+  </data>
+  <data name="Error_InvalidNextProcessDate" xml:space="preserve">
+    <value>Next process date is invalid.</value>
+  </data>
+  <data name="Error_InvalidProcessDate" xml:space="preserve">
+    <value>Process date is invalid.</value>
+  </data>
+  <data name="Error_LogObjectProcess_NoTask" xml:space="preserve">
+    <value>Log-Object has no tasks.</value>
+  </data>
+  <data name="FinishInventory" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Info_ProcessingCompleted" xml:space="preserve">
+    <value>Processing completed successfully. </value>
+  </data>
+  <data name="LoadLogObjectsAsMissing" xml:space="preserve">
+    <value>Load Log-objects in missing state.</value>
+  </data>
+  <data name="ProcessDate" xml:space="preserve">
+    <value>Process date</value>
+  </data>
+  <data name="ProcessPlannedDate" xml:space="preserve">
+    <value>Process planned date</value>
+  </data>
+  <data name="ProcessTask" xml:space="preserve">
+    <value>Process task</value>
+  </data>
+  <data name="Info_RelocationCompleted" xml:space="preserve">
+    <value>Relocation completed successfully.</value>
+  </data>
+  <data name="SelectAllForInventoryCheckOut" xml:space="preserve">
+    <value>Select all for check out</value>
+  </data>
+  <data name="SelectAllForInventoryCheckIn" xml:space="preserve">
+    <value>Select all for check in</value>
+  </data>
+  <data name="LogObjectAutoRelocation" xml:space="preserve">
+    <value>Auto Relocation</value>
+  </data>
+  <data name="Error_LogObjectScriptingAlreadyAssigned" xml:space="preserve">
+    <value>A Log-object scripting is already assigned for these key fields.</value>
+  </data>
+  <data name="LogObjectClassification" xml:space="preserve">
+    <value>Group/Masterdata</value>
+  </data>
+  <data name="Confirm_LogObjectCustomPropertyForcedPropertyPropagation" xml:space="preserve">
+    <value>The changes are propageted to the Log-object sub groups and masterdata. Do you want to overwrite the existing assignments with these settings?</value>
+  </data>
+  <data name="Confirm_LogObjectCustomPropertyUpdateMakesAssignment" xml:space="preserve">
+    <value>Saving this changes makes the assignment local. Do want to continue?</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Info_WorkInProgress" xml:space="preserve">
+    <value>Work in progress...</value>
+  </data>
+  <data name="Error_LogObjectScriptingPriorityMissing" xml:space="preserve">
+    <value>A priority value must be given.</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="CreateBusinessPartner" xml:space="preserve">
+    <value>Create business partner</value>
+  </data>
+  <data name="Ungrouped" xml:space="preserve">
+    <value>Ungrouped</value>
+  </data>
+  <data name="Error_AccessSubjectMustBeGiven" xml:space="preserve">
+    <value>Access subject must be given.</value>
+  </data>
+  <data name="Unalterable" xml:space="preserve">
+    <value>Unalterable</value>
+  </data>
+  <data name="CustomPropertyGroup" xml:space="preserve">
+    <value>CustomPropertyGroup</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>Account information</value>
+  </data>
+  <data name="Auth_Request_Login" xml:space="preserve">
+    <value>Please enter your username and password.</value>
+  </data>
+  <data name="Properties_Company" xml:space="preserve">
+    <value>Company properties</value>
+  </data>
+  <data name="Properties_CustomProperty" xml:space="preserve">
+    <value>Custom property details</value>
+  </data>
+  <data name="Properties_CustomPropertyGroup" xml:space="preserve">
+    <value>Custom property group details</value>
+  </data>
+  <data name="Properties_DynamicScript" xml:space="preserve">
+    <value>Dynamic script properties</value>
+  </data>
+  <data name="Properties_Journal" xml:space="preserve">
+    <value>Journal properties</value>
+  </data>
+  <data name="Properties_LogObject" xml:space="preserve">
+    <value>Log-Object properties</value>
+  </data>
+  <data name="Properties_LogObjectCustomProperty" xml:space="preserve">
+    <value>Log-Object custom property details</value>
+  </data>
+  <data name="Properties_LogObjectMData" xml:space="preserve">
+    <value>Log-Object masterdata properties</value>
+  </data>
+  <data name="Properties_LogObjectMDataGroup" xml:space="preserve">
+    <value>Log-Object masterdata group properties</value>
+  </data>
+  <data name="Properties_LogObjectScripting" xml:space="preserve">
+    <value>Log-Object scripting properties</value>
+  </data>
+  <data name="Properties_Person" xml:space="preserve">
+    <value>Person properties</value>
+  </data>
+  <data name="Properties_Route" xml:space="preserve">
+    <value>Route properties</value>
+  </data>
+  <data name="Properties_Site" xml:space="preserve">
+    <value>Site properties</value>
+  </data>
+  <data name="Properties_Storage" xml:space="preserve">
+    <value>Storage properties</value>
+  </data>
+  <data name="Properties_UserGroup" xml:space="preserve">
+    <value>Usergroup properties</value>
+  </data>
+  <data name="NewCustomProperty" xml:space="preserve">
+    <value>New custom property</value>
+  </data>
+  <data name="NewCustomPropertyGroup" xml:space="preserve">
+    <value>New custom property group</value>
+  </data>
+  <data name="NewDynamicScript" xml:space="preserve">
+    <value>New dynamic script</value>
+  </data>
+  <data name="NewLogObjectScripting" xml:space="preserve">
+    <value>New Log-Object scripting</value>
+  </data>
+  <data name="Info_MeasurementCompleted" xml:space="preserve">
+    <value>Measurement completed sucessfully.</value>
+  </data>
+  <data name="Confirm_EditName_CustomProperty" xml:space="preserve">
+    <value>The change of the name can harm the behavior of existing script code. Do you still want to continue?</value>
+  </data>
+  <data name="MultipleValues" xml:space="preserve">
+    <value>Multiple values</value>
+  </data>
+  <data name="NewLogObjectCustomProperty" xml:space="preserve">
+    <value>New Log-Object custom property</value>
+  </data>
+  <data name="WithThousandSeparator" xml:space="preserve">
+    <value>With thousand separator</value>
+  </data>
+  <data name="LogObjectDescription" xml:space="preserve">
+    <value>Short text</value>
+  </data>
+  <data name="NoStrictValueAdded" xml:space="preserve">
+    <value>There is no strict value added for this custom property.</value>
+  </data>
+  <data name="Error_LogObjectMDataGroupInvalid" xml:space="preserve">
+    <value>Log-Object group is invalid or not unique.</value>
+  </data>
+  <data name="MassManagement" xml:space="preserve">
+    <value>Mass Management</value>
+  </data>
+  <data name="Error_InvalidDateFormat" xml:space="preserve">
+    <value>Invalid date format.</value>
+  </data>
+  <data name="Error_InvalidDoubleFormat" xml:space="preserve">
+    <value>Invalid fractional number format.</value>
+  </data>
+  <data name="Error_InvalidIntegerFormat" xml:space="preserve">
+    <value>Invalid integer number format.</value>
+  </data>
+  <data name="Error_FormError" xml:space="preserve">
+    <value>Please correct the errors.</value>
+  </data>
+  <data name="PostingQuantity" xml:space="preserve">
+    <value>Posting quantity</value>
+  </data>
+  <data name="Error_QuantityGreaterThanAvailableOrNonPositive" xml:space="preserve">
+    <value>Posting quantity is greater than the available quantity or not positive.</value>
+  </data>
+  <data name="Error_QuantityMustBeGiven" xml:space="preserve">
+    <value>Posting quantity must be given.</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Info_SingleIssueCompleted" xml:space="preserve">
+    <value>Issue on Log-Object "{string operativeId}" completed sucessfully.</value>
+  </data>
+  <data name="Error_CompanyNotExists" xml:space="preserve">
+    <value>The company: { string companyName } does not exist.</value>
+  </data>
+  <data name="Error_EmptyCompany" xml:space="preserve">
+    <value>Company must be given.</value>
+  </data>
+  <data name="Error_EmptySite" xml:space="preserve">
+    <value>Site must be given.</value>
+  </data>
+  <data name="Error_InvalidSiteOfCompany" xml:space="preserve">
+    <value>The site: {string siteName} is invalid under the company: {string companyName}.</value>
+  </data>
+  <data name="Info_IssueCompleted" xml:space="preserve">
+    <value>Issue completed successfully.</value>
+  </data>
+  <data name="Info_BulkIssueLogObjectCount" xml:space="preserve">
+    <value>Issue {int count} Log-Objects</value>
+  </data>
+  <data name="Issue" xml:space="preserve">
+    <value>Deliver</value>
+  </data>
+  <data name="ChangeInfo" xml:space="preserve">
+    <value>Change info</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>Create date:</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created by:</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>Dates</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Modified by:</value>
+  </data>
+  <data name="ModifyDate" xml:space="preserve">
+    <value>Modify date:</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Auth_Membership_Error_CreateUserFailed" xml:space="preserve">
+    <value>User creation failed. Please review the given values, and try again.</value>
+  </data>
+  <data name="Auth_Membership_Error_SetPasswordFailed" xml:space="preserve">
+    <value>The password setting resulted in error. Please provide a correct one.</value>
+  </data>
+  <data name="Message_ChangePasswordFormat" xml:space="preserve">
+    <value>The password must contain exactly four numeric charaters, or at least four alphanumeric characters that contains at least one lower case, one upper case letters and a number.</value>
+  </data>
+  <data name="Message_ChangePasswordWarning" xml:space="preserve">
+    <value>If any error occurs during password modification, the concerned user won't be able to log in until an acceptable password has not been given. Do you still want to continue?</value>
+  </data>
+  <data name="Auth_Membership_Error_UnlockUserFailed" xml:space="preserve">
+    <value>Failed to unlock the user.</value>
+  </data>
+  <data name="NewCustomId" xml:space="preserve">
+    <value>New Tag-ID</value>
+  </data>
+  <data name="SplitCustomId" xml:space="preserve">
+    <value>Tag-ID for split quantity</value>
+  </data>
+  <data name="Confirm_FullQuantityRelocationWithNewCustomId" xml:space="preserve">
+    <value>If you relocate the full quantity of a Log-Object, the given Tag-ID won't be assigned to it. Do you still want to continue?</value>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="UserIsLockedOut" xml:space="preserve">
+    <value>Warning: User account is locked out!</value>
+  </data>
+  <data name="Auth_Error_LocalUserNameMismatch" xml:space="preserve">
+    <value>Username doesn't match the local username.</value>
+  </data>
+  <data name="ClientID" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="Confirm_ReinitClient" xml:space="preserve">
+    <value>You are about to reinitialize the client. All data will be lost. Do you want to continue?</value>
+  </data>
+  <data name="Confirm_SynchronisationCommandFailures" xml:space="preserve">
+    <value>Failures occured when processing previously uploaded data. Working in this state can cause further failures. Do you want to download 	
+even so?</value>
+  </data>
+  <data name="Confirm_SynchronisationCultureCodeChange" xml:space="preserve">
+    <value>The culture setting has been changed since last update. Do you want to refresh all data on the client?</value>
+  </data>
+  <data name="Finalization" xml:space="preserve">
+    <value>Finalization</value>
+  </data>
+  <data name="Info_InitializingApplication" xml:space="preserve">
+    <value>Initializing application</value>
+  </data>
+  <data name="Info_SynchronisationCompleted" xml:space="preserve">
+    <value>Synchronisation completed sucessfully.</value>
+  </data>
+  <data name="OfflineData" xml:space="preserve">
+    <value>Offline data</value>
+  </data>
+  <data name="PendingPostings" xml:space="preserve">
+    <value>Pending postings</value>
+  </data>
+  <data name="OnlineLogOn" xml:space="preserve">
+    <value>Online log on</value>
+  </data>
+  <data name="OnlineSignIn" xml:space="preserve">
+    <value>Online sign in</value>
+  </data>
+  <data name="ReinitClient" xml:space="preserve">
+    <value>Reinitialize client</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SnapshotTimestamp" xml:space="preserve">
+    <value>Snapshot of</value>
+  </data>
+  <data name="Startup" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+  <data name="Synchronisation" xml:space="preserve">
+    <value>Synchronisation</value>
+  </data>
+  <data name="SyncSettings" xml:space="preserve">
+    <value>Synchronisation settings</value>
+  </data>
+  <data name="Sync_CheckingForProcessFailures" xml:space="preserve">
+    <value>Checking for failures on processed data</value>
+  </data>
+  <data name="Sync_DownloadingData" xml:space="preserve">
+    <value>Downloading data</value>
+  </data>
+  <data name="Sync_InitializingSynchronisation" xml:space="preserve">
+    <value>Initializing synchronisation</value>
+  </data>
+  <data name="Sync_ProcessingData" xml:space="preserve">
+    <value>Processing data</value>
+  </data>
+  <data name="Sync_RegisteringChanges" xml:space="preserve">
+    <value>Registering changes on the server</value>
+  </data>
+  <data name="Sync_SavingData" xml:space="preserve">
+    <value>Saving data</value>
+  </data>
+  <data name="Sync_UploadingData" xml:space="preserve">
+    <value>Uploading data</value>
+  </data>
+  <data name="Sync_WaitingForServerProcessing" xml:space="preserve">
+    <value>Waiting for server processing uploaded data</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Info_NoPendingPostingsFound" xml:space="preserve">
+    <value>No pending postings found.</value>
+  </data>
+  <data name="Warning_LogObjectWithPendingPostings" xml:space="preserve">
+    <value>Log-Object has pending postings.</value>
+  </data>
+  <data name="LogObjectManipulation" xml:space="preserve">
+    <value>Manipulation</value>
+  </data>
+  <data name="Info_BulkManipulationLogObjectCount" xml:space="preserve">
+    <value>Manipulate {int count} Log-Objects</value>
+  </data>
+  <data name="Info_ManipulationCompleted" xml:space="preserve">
+    <value>Manipulation completed successfully.</value>
+  </data>
+  <data name="LogObjectBulkManipulation" xml:space="preserve">
+    <value>Bulk manipulation</value>
+  </data>
+  <data name="Error_LogObjectBulkManipulation" xml:space="preserve">
+    <value>Log-Object '{string logId}' is cannot be manipulated.</value>
+  </data>
+  <data name="Error_EmptyRoute" xml:space="preserve">
+    <value>Route must be given.</value>
+  </data>
+  <data name="Error_EmptyManipulationSubType" xml:space="preserve">
+    <value>Manipulation sub type must be given.</value>
+  </data>
+  <data name="Info_SingleManipulationCompleted" xml:space="preserve">
+    <value>Manipulation on Log-Object "{string operativeId}" completed sucessfully.</value>
+  </data>
+  <data name="SmartTags" xml:space="preserve">
+    <value>Cold Chain</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Only_Extreme" xml:space="preserve">
+    <value>Only extreme</value>
+  </data>
+  <data name="Only_Normal" xml:space="preserve">
+    <value>Only normal</value>
+  </data>
+  <data name="PostingKind" xml:space="preserve">
+    <value>Posting kind</value>
+  </data>
+  <data name="Thresholds" xml:space="preserve">
+    <value>Thresholds</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="DataProcessing" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="NoDataInTable" xml:space="preserve">
+    <value>No data available in table</value>
+  </data>
+  <data name="NoEntriesToShow" xml:space="preserve">
+    <value>No entries to show</value>
+  </data>
+  <data name="SelectAllOnPage" xml:space="preserve">
+    <value>Select all on page</value>
+  </data>
+  <data name="SelectNoneOnPage" xml:space="preserve">
+    <value>Deselect all on page</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="ShowXentries" xml:space="preserve">
+    <value>Show _MENU_ entries</value>
+  </data>
+  <data name="ShowXtoYofZentries" xml:space="preserve">
+    <value>Showing _START_ to _END_ of _TOTAL_ entries</value>
+  </data>
+  <data name="Annotation" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="Confirm_DeleteAnnotation" xml:space="preserve">
+    <value>Deleting annotation. Are you sure?</value>
+  </data>
+  <data name="CreateAnnotation" xml:space="preserve">
+    <value>Create annotation</value>
+  </data>
+  <data name="DefaultThresholds" xml:space="preserve">
+    <value>Default thresholds</value>
+  </data>
+  <data name="ExportAsPDF" xml:space="preserve">
+    <value>Export as PDF</value>
+  </data>
+  <data name="MarkDeviantPoints" xml:space="preserve">
+    <value>Mark deviant points</value>
+  </data>
+  <data name="RangeSelector" xml:space="preserve">
+    <value>Range selector</value>
+  </data>
+  <data name="ResetView" xml:space="preserve">
+    <value>Reset view</value>
+  </data>
+  <data name="ShowThresholds" xml:space="preserve">
+    <value>Show thresholds</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Zooming" xml:space="preserve">
+    <value>Zooming</value>
+  </data>
+  <data name="TimeSpanAboveMax" xml:space="preserve">
+    <value>Time span above max</value>
+  </data>
+  <data name="TimeSpanBelowMin" xml:space="preserve">
+    <value>Time span below min</value>
+  </data>
+  <data name="Confirm_ChartFailedZoom" xml:space="preserve">
+    <value>The zooming chart contains not all Log-Objects going to be exported into the pdf. Do you still want to continue?</value>
+  </data>
+  <data name="FitToZoom" xml:space="preserve">
+    <value>Fit to zoom</value>
+  </data>
+  <data name="DynamicScriptLanguageJavaScript" xml:space="preserve">
+    <value>JavaScript</value>
+  </data>
+  <data name="DynamicScriptLanguageScriptDotNet" xml:space="preserve">
+    <value>Script.NET</value>
+  </data>
+  <data name="ScriptLanguage" xml:space="preserve">
+    <value>Script language</value>
+  </data>
+  <data name="LogObjectMDataGroup_Title" xml:space="preserve">
+    <value>Log-Object group</value>
+  </data>
+  <data name="LogObjectMData_Title" xml:space="preserve">
+    <value>Log-Object masterdata</value>
+  </data>
+  <data name="MasterData" xml:space="preserve">
+    <value>Masterdata</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="SmartTagsUploaderDownload" xml:space="preserve">
+    <value>Cold Chain Uploader download</value>
+  </data>
+  <data name="DefaultStorageNeeded" xml:space="preserve">
+    <value>A user specific storage is needed for this operation.</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="TaskState_Assigned" xml:space="preserve">
+    <value>Assigned</value>
+  </data>
+  <data name="TaskState_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="TaskState_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="TaskState_InProgress" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="TaskState_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="TaskState_Reopened" xml:space="preserve">
+    <value>Reopened</value>
+  </data>
+  <data name="CurrentScannerComponent" xml:space="preserve">
+    <value>Current scanner component</value>
+  </data>
+  <data name="Error_EmptyProcessActivity" xml:space="preserve">
+    <value>Process activity must be given.</value>
+  </data>
+  <data name="ProcessActivity" xml:space="preserve">
+    <value>Process activity</value>
+  </data>
+  <data name="HapticFeedback" xml:space="preserve">
+    <value>Haptic feedback</value>
+  </data>
+  <data name="ScannerMode" xml:space="preserve">
+    <value>Scanner mode</value>
+  </data>
+  <data name="ScannerMode_Polling" xml:space="preserve">
+    <value>Polling</value>
+  </data>
+  <data name="ScannerMode_Single" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Info_ChangesSaved" xml:space="preserve">
+    <value>Changes are saved successfully.</value>
+  </data>
+  <data name="ActiveCamera" xml:space="preserve">
+    <value>Active camera</value>
+  </data>
+  <data name="ActiveScanner" xml:space="preserve">
+    <value>Active scanner</value>
+  </data>
+  <data name="CurrentCameraComponent" xml:space="preserve">
+    <value>Current camera component</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Remove selected</value>
+  </data>
+  <data name="Confirm_ExitApplication" xml:space="preserve">
+    <value>Do you really want to exit the application?</value>
+  </data>
+  <data name="Proprietor" xml:space="preserve">
+    <value>Proprietor</value>
+  </data>
+  <data name="SetOwnership" xml:space="preserve">
+    <value>Set Ownership</value>
+  </data>
+  <data name="HapticFeedback_Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="HapticFeedback_Vibration" xml:space="preserve">
+    <value>Vibration</value>
+  </data>
+  <data name="AddPhoto" xml:space="preserve">
+    <value>Add photo</value>
+  </data>
+  <data name="AddSignature" xml:space="preserve">
+    <value>Add signature</value>
+  </data>
+  <data name="ClearSignatureCanvas" xml:space="preserve">
+    <value>Clear canvas</value>
+  </data>
+  <data name="Confirm_OverwriteSignature" xml:space="preserve">
+    <value>A signature already exists. Do you want to overwrite it?</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="AsyncUpdateRequest" xml:space="preserve">
+    <value>Send and continue working</value>
+  </data>
+  <data name="Confirm_DiscardLocalChanges" xml:space="preserve">
+    <value>You are about to discard the local changes. Are you sure?</value>
+  </data>
+  <data name="DiscardLocalChanges" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="InstallUpdate" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="Info_DiscardCompleted" xml:space="preserve">
+    <value>Discard succesfully completed.</value>
+  </data>
+  <data name="Info_DiscardingLocalChanges" xml:space="preserve">
+    <value>Discarding local changes...</value>
+  </data>
+  <data name="Info_DownloadingUpdate" xml:space="preserve">
+    <value>Downloading update...</value>
+  </data>
+  <data name="Info_InstallingUpdate" xml:space="preserve">
+    <value>Installing update...</value>
+  </data>
+  <data name="Info_LocalChangesPresent" xml:space="preserve">
+    <value>There are local changes.</value>
+  </data>
+  <data name="Info_NoLocalChangesPresent" xml:space="preserve">
+    <value>No local changes.</value>
+  </data>
+  <data name="Info_NoUpdatePackagePresent" xml:space="preserve">
+    <value>No available update.</value>
+  </data>
+  <data name="Info_UpdateCompleted" xml:space="preserve">
+    <value>Update succesfully completed.</value>
+  </data>
+  <data name="Info_UpdatePackagePresent" xml:space="preserve">
+    <value>An update is available for download.</value>
+  </data>
+  <data name="Info_UpdateRequestSent" xml:space="preserve">
+    <value>Request for update has been sent.</value>
+  </data>
+  <data name="Info_UploadCompleted" xml:space="preserve">
+    <value>Upload succesfully completed.</value>
+  </data>
+  <data name="Info_UploadingLocalChanges" xml:space="preserve">
+    <value>Uploading local changes...</value>
+  </data>
+  <data name="Info_WaitingForUpdate" xml:space="preserve">
+    <value>Waiting for available update.</value>
+  </data>
+  <data name="LocalChanges" xml:space="preserve">
+    <value>Local changes</value>
+  </data>
+  <data name="LocalData" xml:space="preserve">
+    <value>Local data</value>
+  </data>
+  <data name="RequestUpdate" xml:space="preserve">
+    <value>Request upd.</value>
+  </data>
+  <data name="SendUpdateRequest" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ServerData" xml:space="preserve">
+    <value>Server data</value>
+  </data>
+  <data name="UpdatePackageSnapshotTimestamp" xml:space="preserve">
+    <value>Snapshot of</value>
+  </data>
+  <data name="UploadLocalChanges" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Requirement" xml:space="preserve">
+    <value>Requirement</value>
+  </data>
+  <data name="Confirm_UnsavedChanges" xml:space="preserve">
+    <value>The changes are not saved. Do you really want to leave the page?</value>
+  </data>
+  <data name="UnitHandling" xml:space="preserve">
+    <value>Unit handling</value>
+  </data>
+  <data name="UnitHandlingType_Quantitative" xml:space="preserve">
+    <value>Quantitative</value>
+  </data>
+  <data name="UnitHandlingType_Single" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="UnitHandlingType_Summarized" xml:space="preserve">
+    <value>Summarized</value>
+  </data>
+  <data name="ServerLocation" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Error_ServerFailure" xml:space="preserve">
+    <value>An error occured. Please contact our support.</value>
+  </data>
+  <data name="Info_LogObjectMelted" xml:space="preserve">
+    <value>The Log-Object has been melted.</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="NotificationTemplate" xml:space="preserve">
+    <value>Notification setting</value>
+  </data>
+  <data name="NotificationTemplates" xml:space="preserve">
+    <value>Notification settings</value>
+  </data>
+  <data name="NewNotificationTemplate" xml:space="preserve">
+    <value>New notification setting</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Error_EmptyNotificationAgent" xml:space="preserve">
+    <value>Medium must be given.</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="NotificationAgent" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Peek" xml:space="preserve">
+    <value>Peek</value>
+  </data>
+  <data name="GroupByStorage" xml:space="preserve">
+    <value>Group by storage</value>
+  </data>
+  <data name="Error_InactiveNotificationAgent" xml:space="preserve">
+    <value>The notification service ({string agentName}) is not active. Please contact your system administrator!</value>
+  </data>
+  <data name="GroupByLogObjectMData" xml:space="preserve">
+    <value>Group by type</value>
+  </data>
+  <data name="ResolveToStorage" xml:space="preserve">
+    <value>Resolve to storage</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CompanyLinkState_Accepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="CompanyLinkState_Declined" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="CompanyLinkState_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="CompanyLinkState_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="CompanyLinkState_Requested" xml:space="preserve">
+    <value>Requested</value>
+  </data>
+  <data name="CompanyLinkState_Void" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Assign" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="AssignBusinessPartner" xml:space="preserve">
+    <value>Assign business partner</value>
+  </data>
+  <data name="CompanySearch" xml:space="preserve">
+    <value>Company search</value>
+  </data>
+  <data name="LinkRequest" xml:space="preserve">
+    <value>Link request</value>
+  </data>
+  <data name="AcceptLinkRequest" xml:space="preserve">
+    <value>Accept link request</value>
+  </data>
+  <data name="SendLinkRequest" xml:space="preserve">
+    <value>Send link request</value>
+  </data>
+  <data name="PartnershipRequestAccepted" xml:space="preserve">
+    <value>Partnership request has been accepted.</value>
+  </data>
+  <data name="PartnershipRequestSent" xml:space="preserve">
+    <value>Partnership request has been sent.</value>
+  </data>
+  <data name="Confirm_PartnershipOperation" xml:space="preserve">
+    <value>This operation cannot be undone. Do you still want to continue?</value>
+  </data>
+  <data name="CompanyLinkState_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Indorse" xml:space="preserve">
+    <value>Indorse</value>
+  </data>
+  <data name="CreateTag" xml:space="preserve">
+    <value>Create Tag</value>
+  </data>
+  <data name="DelayedStartOfLogging" xml:space="preserve">
+    <value>Delayed start of logging (sec.)</value>
+  </data>
+  <data name="ExtremeTempSamplingInterval" xml:space="preserve">
+    <value>Extreme temp. sampling (sec.)</value>
+  </data>
+  <data name="Logger" xml:space="preserve">
+    <value>Logger</value>
+  </data>
+  <data name="SmartTag" xml:space="preserve">
+    <value>Cold Chain</value>
+  </data>
+  <data name="StorageTemperature" xml:space="preserve">
+    <value>Storage temperature</value>
+  </data>
+  <data name="StorageTempSamplingInterval" xml:space="preserve">
+    <value>Storage temp. sampling (sec.)</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="TagDetails" xml:space="preserve">
+    <value>Tag details</value>
+  </data>
+  <data name="Alarmed" xml:space="preserve">
+    <value>Alarmed</value>
+  </data>
+  <data name="LogEntryCount" xml:space="preserve">
+    <value>Log entry count</value>
+  </data>
+  <data name="LogPeriod" xml:space="preserve">
+    <value>Log period</value>
+  </data>
+  <data name="EndWithoutUpload" xml:space="preserve">
+    <value>End without upload</value>
+  </data>
+  <data name="LoggerState" xml:space="preserve">
+    <value>Logger state</value>
+  </data>
+  <data name="ViewLogEntries" xml:space="preserve">
+    <value>View Log entries</value>
+  </data>
+  <data name="ExtremeValueFiltering" xml:space="preserve">
+    <value>Extreme value filtering</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="BatteryLevel" xml:space="preserve">
+    <value>Battery level</value>
+  </data>
+  <data name="MemoryFull" xml:space="preserve">
+    <value>Memory full</value>
+  </data>
+  <data name="OperatingState" xml:space="preserve">
+    <value>Operating state</value>
+  </data>
+  <data name="SensorSensitivity" xml:space="preserve">
+    <value>Sensor sensitivity</value>
+  </data>
+  <data name="ScannerType_RFID_LF" xml:space="preserve">
+    <value>RFID</value>
+  </data>
+  <data name="Error_InvalidValue" xml:space="preserve">
+    <value>Invalid value [{string property}].</value>
+  </data>
+  <data name="Error_ValueMustBeGiven" xml:space="preserve">
+    <value>Value must be given [{string property}].</value>
+  </data>
+  <data name="Error_ValueMustBeBetween" xml:space="preserve">
+    <value>Value must be between {double min} and {double max} [{string property}].</value>
+  </data>
+  <data name="Error_ValueMustBeGreaterThan" xml:space="preserve">
+    <value>Value must be greater than {double limit} [{string property}].</value>
+  </data>
+  <data name="Error_ValueMustBePositive" xml:space="preserve">
+    <value>Value must be positive [{string property}].</value>
+  </data>
+  <data name="Error_InvalidStorageTemperatureRange" xml:space="preserve">
+    <value>Storage temperature must be greater than {double min} and lower than {double max}.</value>
+  </data>
+  <data name="Info_DeviceReseted" xml:space="preserve">
+    <value>Device reseted successfully.</value>
+  </data>
+  <data name="OperatingState_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="OperatingState_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="OperatingState_None" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="OperatingState_Sleeping" xml:space="preserve">
+    <value>Sleeping</value>
+  </data>
+  <data name="OperatingState_StandBy" xml:space="preserve">
+    <value>StandBy</value>
+  </data>
+  <data name="Confirm_ResetLoggerDevice" xml:space="preserve">
+    <value>You are about to reset the logger device. All data will be lost. Do you want to continue?</value>
+  </data>
+  <data name="Confirm_UploadLoggedData" xml:space="preserve">
+    <value>Do you really want to upload the logged data?</value>
+  </data>
+  <data name="Info_NoDataFound" xml:space="preserve">
+    <value>No data has been found.</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Error_LoggerResetFailed" xml:space="preserve">
+    <value>Failed to reset the logger.</value>
+  </data>
+  <data name="Error_LoggerStartFailed" xml:space="preserve">
+    <value>Failed to start the logger.</value>
+  </data>
+  <data name="Error_LoggerStopFailed" xml:space="preserve">
+    <value>Failed to stop the logger.</value>
+  </data>
+  <data name="Error_ValueMustBeGreaterThanAndLowerOrEqualThan" xml:space="preserve">
+    <value>Value must be greater than {double min} and lower or equal than {double max} [{string property}].</value>
+  </data>
+  <data name="DeliveryNoteNo" xml:space="preserve">
+    <value>Delivery note no</value>
+  </data>
+  <data name="WaybillNo" xml:space="preserve">
+    <value>Waybill no</value>
+  </data>
+  <data name="Info_ReceiptCompleted" xml:space="preserve">
+    <value>Receipt completed successfully.</value>
+  </data>
+  <data name="Info_SingleReceiptCompleted" xml:space="preserve">
+    <value>Receipt on Log-Object "{string operativeId}" completed sucessfully.</value>
+  </data>
+  <data name="Error_QuantityNotNegative" xml:space="preserve">
+    <value>Quantity must be negative.</value>
+  </data>
+  <data name="Error_SaveFailed" xml:space="preserve">
+    <value>Saving changes failed.</value>
+  </data>
+  <data name="UnsavedChanges" xml:space="preserve">
+    <value>There are unsaved changes.</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Error_EmptyDate" xml:space="preserve">
+    <value>Date must be given.</value>
+  </data>
+  <data name="Error_OperationFailed" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="Error_AmbiguousLogObjectMData" xml:space="preserve">
+    <value>Log-Object type is ambiguous.</value>
+  </data>
+  <data name="Error_LogObjectReceipt_Solution" xml:space="preserve">
+    <value>The Log-Object state must be "on road" to perform this operation.</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Confirm_PostingQuantityDiffersFromActualQuantity" xml:space="preserve">
+    <value>Posting quantity differs from actual quantity. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_LogObjectIsNotInState" xml:space="preserve">
+    <value>The Log-Object is not in state "{string state}". Do you still want to continue? </value>
+  </data>
+  <data name="TakeOver" xml:space="preserve">
+    <value>Take over</value>
+  </data>
+  <data name="Error_MobileClientOfflineWorkAccessFailure" xml:space="preserve">
+    <value>You are not not allowed to work offline.</value>
+  </data>
+  <data name="Evaluation" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="StopDate" xml:space="preserve">
+    <value>Stop date</value>
+  </data>
+  <data name="Uom" xml:space="preserve">
+    <value>Uom</value>
+  </data>
+  <data name="Extras" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="BusinessPartnerRoles" xml:space="preserve">
+    <value>Partner roles</value>
+  </data>
+  <data name="ExternalRoles" xml:space="preserve">
+    <value>External roles</value>
+  </data>
+  <data name="AccessControl" xml:space="preserve">
+    <value>Access control</value>
+  </data>
+  <data name="BusinessPartnerDataAccess" xml:space="preserve">
+    <value>Partner data access</value>
+  </data>
+  <data name="ExternalDataAccess" xml:space="preserve">
+    <value>External data access</value>
+  </data>
+  <data name="Activation" xml:space="preserve">
+    <value>Activation</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ErrorCode" xml:space="preserve">
+    <value>Error code</value>
+  </data>
+  <data name="Reactivate" xml:space="preserve">
+    <value>Reactivate</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="StartActivation" xml:space="preserve">
+    <value>Start activation</value>
+  </data>
+  <data name="StartUpload" xml:space="preserve">
+    <value>Start upload</value>
+  </data>
+  <data name="StopActivation" xml:space="preserve">
+    <value>Stop activation</value>
+  </data>
+  <data name="StopUpload" xml:space="preserve">
+    <value>Stop upload</value>
+  </data>
+  <data name="SmartTagProcessingState_Activated" xml:space="preserve">
+    <value>The tag has been successfully activated. Please remove it from the desktop reader.</value>
+  </data>
+  <data name="SmartTagProcessingState_AlreadyActivated" xml:space="preserve">
+    <value>The tag has already been activated. You can reactivate it or continue scanning.</value>
+  </data>
+  <data name="SmartTagProcessingState_CannotBeUploaded" xml:space="preserve">
+    <value>The tag doesn't contain any log entries. Please remove it from the desktop reader.</value>
+  </data>
+  <data name="SmartTagProcessingState_DeviceError" xml:space="preserve">
+    <value>A device error is occured. You can start the whole process again by clicking on the button below.</value>
+  </data>
+  <data name="SmartTagProcessingState_FatalError" xml:space="preserve">
+    <value>A fatal error is occured. Please contact with the system administrator.</value>
+  </data>
+  <data name="SmartTagProcessingState_LogReadFinished" xml:space="preserve">
+    <value>Uploading log entries...</value>
+  </data>
+  <data name="SmartTagProcessingState_LogReadProgress" xml:space="preserve">
+    <value>Reading log entries...</value>
+  </data>
+  <data name="SmartTagProcessingState_Scanning" xml:space="preserve">
+    <value>Please put a tag onto the desktop reader.</value>
+  </data>
+  <data name="SmartTagProcessingState_TagFound" xml:space="preserve">
+    <value>A tag has been found. Please don't remove it until requested. Working in progress...</value>
+  </data>
+  <data name="SmartTagProcessingState_Timeout" xml:space="preserve">
+    <value>The application has been inactive for a while so the desktop reader stopped scanning. You can start again by clicking on the button below.</value>
+  </data>
+  <data name="SmartTagProcessingState_Uploaded" xml:space="preserve">
+    <value>The log entries have been successfully uploaded. The tag has been reseted. Please remove it from the desktop reader.</value>
+  </data>
+  <data name="SerialActivation" xml:space="preserve">
+    <value>Serial activation</value>
+  </data>
+  <data name="SerialUpload" xml:space="preserve">
+    <value>Serial upload</value>
+  </data>
+  <data name="BusinessPartnerEntrants" xml:space="preserve">
+    <value>Partner entrants</value>
+  </data>
+  <data name="ExternalEntrants" xml:space="preserve">
+    <value>External entrants</value>
+  </data>
+  <data name="Warning_ThresholdExceeded" xml:space="preserve">
+    <value>Attention: threshold was exceeded!</value>
+  </data>
+  <data name="NewLogObjectMDataCustomProperty" xml:space="preserve">
+    <value>New log-object type custom property</value>
+  </data>
+  <data name="Properties_LogObjectMDataCustomProperty" xml:space="preserve">
+    <value>Type custom property details</value>
+  </data>
+  <data name="EditLogObjectMDataGroup" xml:space="preserve">
+    <value>Edit log-object group</value>
+  </data>
+  <data name="EditParentGroup" xml:space="preserve">
+    <value>Edit parent group</value>
+  </data>
+  <data name="LogObjectMDataInfo" xml:space="preserve">
+    <value>Log-Object type info</value>
+  </data>
+  <data name="Dictionaries" xml:space="preserve">
+    <value>Dictionaries</value>
+  </data>
+  <data name="Dictionary" xml:space="preserve">
+    <value>Dictionary</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Entries</value>
+  </data>
+  <data name="Entry" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="Static" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="SubordinateDictionaries" xml:space="preserve">
+    <value>Subordinate dictionaries</value>
+  </data>
+  <data name="SuperordinateDictionary" xml:space="preserve">
+    <value>Superordinate dictionary</value>
+  </data>
+  <data name="NewDictionary" xml:space="preserve">
+    <value>New Dictionary</value>
+  </data>
+  <data name="NewEntry" xml:space="preserve">
+    <value>New Entry</value>
+  </data>
+  <data name="Properties_Dictionary" xml:space="preserve">
+    <value>Dictionary properties</value>
+  </data>
+  <data name="Properties_Entry" xml:space="preserve">
+    <value>Entry properties</value>
+  </data>
+  <data name="SubordinateEntries" xml:space="preserve">
+    <value>Subordinate entries</value>
+  </data>
+  <data name="SuperordinateEntry" xml:space="preserve">
+    <value>Superordinate entry</value>
+  </data>
+  <data name="Confirm_DeleteDictionary" xml:space="preserve">
+    <value>Deleting dictionary. Are you sure?</value>
+  </data>
+  <data name="Confirm_DeleteEntry" xml:space="preserve">
+    <value>Deleting entry. Are you sure?</value>
+  </data>
+  <data name="Error_EmptySuperordinateEntry" xml:space="preserve">
+    <value>Superordinate entry must be given.</value>
+  </data>
+  <data name="Info_DictionaryDeleted" xml:space="preserve">
+    <value>Dictionary successfully deleted.</value>
+  </data>
+  <data name="Info_EntryDeleted" xml:space="preserve">
+    <value>Entry successfully deleted.</value>
+  </data>
+  <data name="Confirm_DeleteEntries" xml:space="preserve">
+    <value>Deleting entries. Are you sure?</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="ActivityMData" xml:space="preserve">
+    <value>Activity masterdata</value>
+  </data>
+  <data name="ActivityMDataGroup" xml:space="preserve">
+    <value>Activity group</value>
+  </data>
+  <data name="NewActivityMData" xml:space="preserve">
+    <value>New activity masterdata</value>
+  </data>
+  <data name="NewActivityMDataGroup" xml:space="preserve">
+    <value>New activity group</value>
+  </data>
+  <data name="Properties_ActivityMData" xml:space="preserve">
+    <value>Activity masterdata properties</value>
+  </data>
+  <data name="Properties_ActivityMDataGroup" xml:space="preserve">
+    <value>Activity group properties</value>
+  </data>
+  <data name="EditActivityMDataGroup" xml:space="preserve">
+    <value>Edit activity group</value>
+  </data>
+  <data name="ActivityCustomProperties" xml:space="preserve">
+    <value>Activity custom properties</value>
+  </data>
+  <data name="Confirm_ActivityCustomPropertyForcedPropertyPropagation" xml:space="preserve">
+    <value>The changes are propageted to the activity sub groups and masterdata. Do you want to overwrite the existing assignments with these settings?</value>
+  </data>
+  <data name="Confirm_ActivityCustomPropertyUpdateMakesAssignment" xml:space="preserve">
+    <value>Saving this changes makes the assignment local. Do want to continue?</value>
+  </data>
+  <data name="Confirm_RemoveActivityCustomProperty" xml:space="preserve">
+    <value>Removing activity custom property. Are you sure?</value>
+  </data>
+  <data name="Error_EmptyActivityMData" xml:space="preserve">
+    <value>Activity masterdata must be given.</value>
+  </data>
+  <data name="Error_EmptyActivityMDataGroup" xml:space="preserve">
+    <value>Activity group must be given.</value>
+  </data>
+  <data name="Info_ActivityCustomPropertyRemoved" xml:space="preserve">
+    <value>Activity custom property successfully removed.</value>
+  </data>
+  <data name="NewActivityCustomProperty" xml:space="preserve">
+    <value>New activity custom property</value>
+  </data>
+  <data name="Properties_ActivityCustomProperty" xml:space="preserve">
+    <value>Activity custom property details</value>
+  </data>
+  <data name="Error_DictionaryAlreadyExists" xml:space="preserve">
+    <value>The given dictionary already exists.</value>
+  </data>
+  <data name="Error_EntryAlreadyExists" xml:space="preserve">
+    <value>The given entry already exists in this dictionary.</value>
+  </data>
+  <data name="DefaultPriority" xml:space="preserve">
+    <value>Default priority</value>
+  </data>
+  <data name="Error_EmptyKind" xml:space="preserve">
+    <value>Kind must be given.</value>
+  </data>
+  <data name="Kind" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="ValidityCheck" xml:space="preserve">
+    <value>Wears validity</value>
+  </data>
+  <data name="Confirm_DeleteLogObjectClassificationRelatedActivityMData" xml:space="preserve">
+    <value>Deleting masterdata/group assignement. Are you sure?</value>
+  </data>
+  <data name="Info_LogObjectClassificationRelatedActivityMDataRemoved" xml:space="preserve">
+    <value>Masterdata/group assignement successfully removed.</value>
+  </data>
+  <data name="LogObjectClassificationRelatedActivityMData" xml:space="preserve">
+    <value>Assigned masterdata/group</value>
+  </data>
+  <data name="LogObjectClassificationRelatedActivityMDatas" xml:space="preserve">
+    <value>Assigned masterdatas/groups</value>
+  </data>
+  <data name="NewLogObjectClassificationRelatedActivityMData" xml:space="preserve">
+    <value>New masterdata/group assignement</value>
+  </data>
+  <data name="Properties_LogObjectClassificationRelatedActivityMData" xml:space="preserve">
+    <value>Masterdata/group assignement properties</value>
+  </data>
+  <data name="ActivityScheduling" xml:space="preserve">
+    <value>Route planning</value>
+  </data>
+  <data name="NewActivityScheduling" xml:space="preserve">
+    <value>New route planning</value>
+  </data>
+  <data name="Properties_ActivityScheduling" xml:space="preserve">
+    <value>Route planning properties</value>
+  </data>
+  <data name="Error_EmptyStartDate" xml:space="preserve">
+    <value>Start date must be given.</value>
+  </data>
+  <data name="Error_InvalidTime" xml:space="preserve">
+    <value>{string time} is not a valid time.</value>
+  </data>
+  <data name="PreScheduledQueueCount" xml:space="preserve">
+    <value>Schedule count to be created</value>
+  </data>
+  <data name="BusinessProcesses" xml:space="preserve">
+    <value>Business processes</value>
+  </data>
+  <data name="ActivitySchedulingEntries" xml:space="preserve">
+    <value>Route entries</value>
+  </data>
+  <data name="ActivitySchedulingEntry" xml:space="preserve">
+    <value>Route entry</value>
+  </data>
+  <data name="NewActivitySchedulingEntry" xml:space="preserve">
+    <value>New route entry</value>
+  </data>
+  <data name="Properties_ActivitySchedulingEntry" xml:space="preserve">
+    <value>Route entry properties</value>
+  </data>
+  <data name="ViewRoute" xml:space="preserve">
+    <value>View route</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ActivityMDatas" xml:space="preserve">
+    <value>Activity masterdatas</value>
+  </data>
+  <data name="Elements" xml:space="preserve">
+    <value>Elements</value>
+  </data>
+  <data name="ActivityMDataAssignment" xml:space="preserve">
+    <value>Activity masterdata assignment</value>
+  </data>
+  <data name="AssignActivityMData" xml:space="preserve">
+    <value>Assign activity masterdata</value>
+  </data>
+  <data name="AssignedActivityMDatas" xml:space="preserve">
+    <value>Assigned activity masterdatas</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Closing date</value>
+  </data>
+  <data name="Confirm_ActivityScheduling_ModifyActive" xml:space="preserve">
+    <value>Modifying the related parameters while the scheduling is active can cause the rescheduling of the tasks. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_ActivityScheduling_Start" xml:space="preserve">
+    <value>With this action the scheduled tasks will be created. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_ActivityScheduling_Start_HighPreScheduling" xml:space="preserve">
+    <value>Numerous schedulings will be created using these parameters. It can cause long rescheduling process in case of further modification. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_ActivityScheduling_Stop" xml:space="preserve">
+    <value>With this action the scheduling of the tasks below can be stopped. Choosing "Yes" the scheduling will be stopped, and all related data will also be deleted. If you don't want to continue scheduling, but want to keep the related data, choose "No". If you don't want to stop the scheduling at all, choose "Cancel".</value>
+  </data>
+  <data name="Activities" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="Assignee" xml:space="preserve">
+    <value>Assignee</value>
+  </data>
+  <data name="Individual" xml:space="preserve">
+    <value>Individual</value>
+  </data>
+  <data name="Error_InvalidLimits" xml:space="preserve">
+    <value>Invalid limits.</value>
+  </data>
+  <data name="Properties_Activity" xml:space="preserve">
+    <value>Activity properties</value>
+  </data>
+  <data name="ActivityQueue" xml:space="preserve">
+    <value>Activity queue</value>
+  </data>
+  <data name="ActivityQueues" xml:space="preserve">
+    <value>Activity queues</value>
+  </data>
+  <data name="Properties_ActivityQueue" xml:space="preserve">
+    <value>Activity queue properties</value>
+  </data>
+  <data name="ActivityQueueSearch" xml:space="preserve">
+    <value>Search activity queue</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="ConfirmAll" xml:space="preserve">
+    <value>Confirm all</value>
+  </data>
+  <data name="Info_DependentIncidentRecordingCompleted" xml:space="preserve">
+    <value>Incident has been attached to the operation.</value>
+  </data>
+  <data name="Info_StandaloneIncidentRecordingCompleted" xml:space="preserve">
+    <value>Incident recording completed sucessfully.</value>
+  </data>
+  <data name="LogObjectActivities" xml:space="preserve">
+    <value>Log object activities</value>
+  </data>
+  <data name="LogObjectIncident" xml:space="preserve">
+    <value>Record incident</value>
+  </data>
+  <data name="LogObjectProving" xml:space="preserve">
+    <value>Proving</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="OpenActivityCount" xml:space="preserve">
+    <value>{int count} open activity</value>
+  </data>
+  <data name="OpenActivityCount_plural" xml:space="preserve">
+    <value>{int count} open activities</value>
+  </data>
+  <data name="PotentialActivityQueues" xml:space="preserve">
+    <value>Potential activity queues</value>
+  </data>
+  <data name="Warning_DependentPostings" xml:space="preserve">
+    <value>Operation has dependent postings.</value>
+  </data>
+  <data name="ShowOnlyActive" xml:space="preserve">
+    <value>Show only active</value>
+  </data>
+  <data name="DueActivity" xml:space="preserve">
+    <value>Due activity</value>
+  </data>
+  <data name="OverdueActivity" xml:space="preserve">
+    <value>Overdue activity</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DueActivities" xml:space="preserve">
+    <value>Due activities</value>
+  </data>
+  <data name="SystemMessages" xml:space="preserve">
+    <value>System messages</value>
+  </data>
+  <data name="ActivityDeadline" xml:space="preserve">
+    <value>Activity deadline</value>
+  </data>
+  <data name="ActivityLeadTime" xml:space="preserve">
+    <value>Activity lead time</value>
+  </data>
+  <data name="IncidentType" xml:space="preserve">
+    <value>Incident type</value>
+  </data>
+  <data name="Info_ProvingCompleted" xml:space="preserve">
+    <value>Proving completed sucessfully.</value>
+  </data>
+  <data name="DueActivityQueues" xml:space="preserve">
+    <value>Due activity queues</value>
+  </data>
+  <data name="DueActivityQueue" xml:space="preserve">
+    <value>Due activity queue</value>
+  </data>
+  <data name="OverdueActivityQueue" xml:space="preserve">
+    <value>Overdue activity queue</value>
+  </data>
+  <data name="BatchProcesses" xml:space="preserve">
+    <value>Batch processes</value>
+  </data>
+  <data name="BatchProcess" xml:space="preserve">
+    <value>Batch process</value>
+  </data>
+  <data name="Properties_BatchProcess" xml:space="preserve">
+    <value>Batch process properties</value>
+  </data>
+  <data name="Properties_Report" xml:space="preserve">
+    <value>Report properties</value>
+  </data>
+  <data name="Error_EmptyBusinessPartner" xml:space="preserve">
+    <value>Business partner must be given.</value>
+  </data>
+  <data name="NewBatchProcess" xml:space="preserve">
+    <value>New batch process</value>
+  </data>
+  <data name="NewReport" xml:space="preserve">
+    <value>New report</value>
+  </data>
+  <data name="LastExecutionTime" xml:space="preserve">
+    <value>Last execution time</value>
+  </data>
+  <data name="Validities" xml:space="preserve">
+    <value>Validities</value>
+  </data>
+  <data name="Error_WebCameraFailure" xml:space="preserve">
+    <value>Web camera cannot be used.</value>
+  </data>
+  <data name="Confirm_CloseClearing" xml:space="preserve">
+    <value>Closing the clearing cannot be undone. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_CompressClearing" xml:space="preserve">
+    <value>Compressing the accounting journals of the clearing cannot be undone. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_DeleteClearing" xml:space="preserve">
+    <value>You are about to delete the clearing. Do you still want to continue?</value>
+  </data>
+  <data name="Error_CannotLinkRowsNotMatchingPostingTypes" xml:space="preserve">
+    <value>The posting types of the selected rows do not match.</value>
+  </data>
+  <data name="Error_CannotLinkRowsOnBothSideShuoldBeSelected" xml:space="preserve">
+    <value>Please select rows on both sides.</value>
+  </data>
+  <data name="Error_ClearingUnsavedChanges" xml:space="preserve">
+    <value>There are unsaved changes. Please save before.</value>
+  </data>
+  <data name="GroupByBusinessPartner" xml:space="preserve">
+    <value>Group by business partner</value>
+  </data>
+  <data name="Info_SelectedAccountingJournalsQuantity" xml:space="preserve">
+    <value>Sum of the selected rows: [0] - partner [1]</value>
+  </data>
+  <data name="Maximalize" xml:space="preserve">
+    <value>Maximalize</value>
+  </data>
+  <data name="Minimalize" xml:space="preserve">
+    <value>Minimalize</value>
+  </data>
+  <data name="ShowHideFrames" xml:space="preserve">
+    <value>Show/hide frames</value>
+  </data>
+  <data name="Confirm_NoReceiverSetForScheduledReport" xml:space="preserve">
+    <value>No receiver has been set for the regularly created report. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_WorkingJobScheduling_Start" xml:space="preserve">
+    <value>Do you really want to enable the execution of scheduled processing?</value>
+  </data>
+  <data name="Confirm_WorkingJobScheduling_Stop" xml:space="preserve">
+    <value>Do you really want to disable the execution of scheduled processing?</value>
+  </data>
+  <data name="Confirm_WorkingJob_Invoke" xml:space="preserve">
+    <value>Do you really want to perform this processing?</value>
+  </data>
+  <data name="Confirm_Activity_Cancel" xml:space="preserve">
+    <value>With this action the activity will be cancelled. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_CancelActivities" xml:space="preserve">
+    <value>Cancelling activities. Are you sure?</value>
+  </data>
+  <data name="Confirm_CancelActivity" xml:space="preserve">
+    <value>Cancelling activity. Are you sure?</value>
+  </data>
+  <data name="Confirm_ActivityQueue_Cancel" xml:space="preserve">
+    <value>With this action the activity queue will be cancelled. Do you still want to continue?</value>
+  </data>
+  <data name="Error_EmptyStoreBaseUOM" xml:space="preserve">
+    <value>StoreBaseUom must be given.</value>
+  </data>
+  <data name="Error_EmptyTemperatureUnit" xml:space="preserve">
+    <value>TemperatureUnit must be given.</value>
+  </data>
+  <data name="Error_EmptyWeightUnit" xml:space="preserve">
+    <value>BaseWeightUnit must be given.</value>
+  </data>
+  <data name="BillOfMaterials" xml:space="preserve">
+    <value>Resource lists</value>
+  </data>
+  <data name="BillOfMaterialNo" xml:space="preserve">
+    <value>Resource list no</value>
+  </data>
+  <data name="OrderClass" xml:space="preserve">
+    <value>Order type</value>
+  </data>
+  <data name="BillOfMaterial" xml:space="preserve">
+    <value>Resource list</value>
+  </data>
+  <data name="Error_EmptyBillOfMaterialNo" xml:space="preserve">
+    <value>Resource list no must be given.</value>
+  </data>
+  <data name="Error_EmptyOrderClass" xml:space="preserve">
+    <value>Order type must be given.</value>
+  </data>
+  <data name="NewBillOfMaterial" xml:space="preserve">
+    <value>New resource list</value>
+  </data>
+  <data name="Properties_BillOfMaterial" xml:space="preserve">
+    <value>Resource list properties</value>
+  </data>
+  <data name="BaseQuantity" xml:space="preserve">
+    <value>Base quantity</value>
+  </data>
+  <data name="OrderPositionClass" xml:space="preserve">
+    <value>Order position type</value>
+  </data>
+  <data name="BillOfMaterialPosition" xml:space="preserve">
+    <value>Resource list position</value>
+  </data>
+  <data name="BillOfMaterialPositions" xml:space="preserve">
+    <value>Resource list positions</value>
+  </data>
+  <data name="NewBillOfMaterialPosition" xml:space="preserve">
+    <value>New resource list position</value>
+  </data>
+  <data name="Properties_BillOfMaterialPosition" xml:space="preserve">
+    <value>Resource list position properties</value>
+  </data>
+  <data name="AssignToMe" xml:space="preserve">
+    <value>Assign to me</value>
+  </data>
+  <data name="Cancellation" xml:space="preserve">
+    <value>Cancellation</value>
+  </data>
+  <data name="Cancellation__Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Confirm_ActivityCancellation" xml:space="preserve">
+    <value>Activity queue will be cancelled. Do you still want to continue?</value>
+  </data>
+  <data name="Confirm_ActivityQueueAssignment" xml:space="preserve">
+    <value>Activity queue will be assign to you. Do you still want to continue?</value>
+  </data>
+  <data name="Info_ActivityQueueCancellationCompleted" xml:space="preserve">
+    <value>Activity queue cancellation completed sucessfully.</value>
+  </data>
+  <data name="NotAssigned" xml:space="preserve">
+    <value>Not assigned</value>
+  </data>
+  <data name="Confirm_DeleteBillOfMaterialPosition" xml:space="preserve">
+    <value>Deleting resource list position. Are you sure?</value>
+  </data>
+  <data name="Confirm_DeleteBillOfMaterialPosition_plural" xml:space="preserve">
+    <value>Deleting resource list positions. Are you sure?</value>
+  </data>
+  <data name="Error_EmptyOrderPositionClass" xml:space="preserve">
+    <value>Order position type must be given.</value>
+  </data>
+  <data name="Error_EmptyResourceNo" xml:space="preserve">
+    <value>Resource no must be given.</value>
+  </data>
+  <data name="ResourceNo" xml:space="preserve">
+    <value>Resource no</value>
+  </data>
+  <data name="Info_BillOfMaterialPositionDeleted" xml:space="preserve">
+    <value>Resource list position successfully deleted.</value>
+  </data>
+  <data name="Confirm_DeleteBillOfMaterial" xml:space="preserve">
+    <value>Deleting resource list. Are you sure?</value>
+  </data>
+  <data name="Info_BillOfMaterialDeleted" xml:space="preserve">
+    <value>Resource list successfully deleted.</value>
+  </data>
+  <data name="LogObjects" xml:space="preserve">
+    <value>Log-Objects</value>
+  </data>
+  <data name="DeliveryOrders" xml:space="preserve">
+    <value>Delivery orders</value>
+  </data>
+  <data name="ExternalOrderNo" xml:space="preserve">
+    <value>External order no</value>
+  </data>
+  <data name="OrderNo" xml:space="preserve">
+    <value>Order no</value>
+  </data>
+  <data name="Confirm_DeleteDeliveryOrder" xml:space="preserve">
+    <value>Deleting delivery order. Are you sure?</value>
+  </data>
+  <data name="DeliveryOrder" xml:space="preserve">
+    <value>Delivery order</value>
+  </data>
+  <data name="Error_EmptyOrderNo" xml:space="preserve">
+    <value>Order no must be given.</value>
+  </data>
+  <data name="Error_EmptySourceSite" xml:space="preserve">
+    <value>Source site must be given.</value>
+  </data>
+  <data name="Error_EmptyTargetSite" xml:space="preserve">
+    <value>Target site must be given.</value>
+  </data>
+  <data name="Info_DeliveryOrderDeleted" xml:space="preserve">
+    <value>Delivery order successfully deleted.</value>
+  </data>
+  <data name="NewDeliveryOrder" xml:space="preserve">
+    <value>New delivery order</value>
+  </data>
+  <data name="OrderManagement" xml:space="preserve">
+    <value>Order management</value>
+  </data>
+  <data name="Properties_DeliveryOrder" xml:space="preserve">
+    <value>Delivery order properties</value>
+  </data>
+  <data name="SourceCompany" xml:space="preserve">
+    <value>Source company</value>
+  </data>
+  <data name="SourceSite" xml:space="preserve">
+    <value>Source site</value>
+  </data>
+  <data name="TargetCompany" xml:space="preserve">
+    <value>Target company</value>
+  </data>
+  <data name="TargetSite" xml:space="preserve">
+    <value>Target site</value>
+  </data>
+  <data name="NewOrderPosition" xml:space="preserve">
+    <value>New order position</value>
+  </data>
+  <data name="OrderPosition" xml:space="preserve">
+    <value>Order position</value>
+  </data>
+  <data name="Properties_OrderPosition" xml:space="preserve">
+    <value>Order position properties</value>
+  </data>
+  <data name="OrderPositions" xml:space="preserve">
+    <value>Order positions</value>
+  </data>
+</root>

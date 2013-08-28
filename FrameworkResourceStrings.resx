@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_AuthorisationReadOnlyParamAccessViolation" xml:space="preserve">
+    <value>Authorisation error: read access violation of Object identificated with Id {int targetEntityId}.</value>
+  </data>
+  <data name="Error_AuthorisationReadWriteParamAccessViolation" xml:space="preserve">
+    <value>Authorisation error: read-write access violation of Object identificated with Id {int targetEntityId}.</value>
+  </data>
+  <data name="Error_AuthorisationMethodExecuteAccessViolation" xml:space="preserve">
+    <value>Authorisation error: execution access violation of method: {string authorisedMethodFullName}.</value>
+  </data>
+  <data name="Error_DatabasePersistency" xml:space="preserve">
+    <value>Database exception has occured while persisting in table: {string name}. Message: { string message }</value>
+  </data>
+  <data name="Error_AuthorisationConfigPermissionAlreadyExists" xml:space="preserve">
+    <value>Configuration error: permission {string permissionName} already exists.</value>
+  </data>
+  <data name="Error_AuthorisationConfigPermissionImportsNotExistingPermission" xml:space="preserve">
+    <value>Configuration error: permission {string permissionName} imports not existing permission {string importedPermissionName}.</value>
+  </data>
+  <data name="Error_AuthorisationConfigRoleAlreadyExists" xml:space="preserve">
+    <value>Configuration error: role {string roleName} already exists.</value>
+  </data>
+  <data name="Error_AuthorisationConfigRoleUsesNotExistingPermission" xml:space="preserve">
+    <value>Configuration error: role {string roleName} uses not existing permission {string permissionName}.</value>
+  </data>
+  <data name="Error_AuthorisationMethodReferencesNotExistingPermission" xml:space="preserve">
+    <value>Authorisation error: method {string fullName} referencing to a not existing permission {string permissionName}.</value>
+  </data>
+  <data name="Error_AuthorisationConfigDaemonAlreadyExists" xml:space="preserve">
+    <value>Configuration error: daemon {string daemonName} already exists.</value>
+  </data>
+  <data name="Error_AuthorisationConfigDaemonRepresentsNotExistingRole" xml:space="preserve">
+    <value>Configuration error: daemon {string daemonName} represents not existing role {string representedRoleName}.</value>
+  </data>
+  <data name="Error_AuthorisationReadOnlyTypeParamAccessViolation" xml:space="preserve">
+    <value>Authorisation error: read access violation of Type {string enitityTypeFullName} in domain identificated with Id {int dataDomainId}.</value>
+  </data>
+  <data name="Error_AuthorisationReadWriteTypeParamAccessViolation" xml:space="preserve">
+    <value>Authorisation error: read-write access violation of Type {string enitityTypeFullName} in domain identificated with Id {int dataDomainId}.</value>
+  </data>
+  <data name="Error_DataDomainViolation" xml:space="preserve">
+    <value>Data domain cannot be 'null'.</value>
+  </data>
+  <data name="Error_AuthorisationConfigDataDomainAlreadyExists" xml:space="preserve">
+    <value>Configuration error: dataDomain {string dataDomainName} already exists.</value>
+  </data>
+  <data name="Error_CustomPropertyDynamicValueInvalidScriptSyntax" xml:space="preserve">
+    <value>Custom property {string customPropertyName} has syntax error in script code.
+Inner exception: {string innerException}</value>
+  </data>
+  <data name="Error_CustomPropertyDynamicValueScriptInvocation" xml:space="preserve">
+    <value>Script invocation for custom property {string customPropertyName} failed.
+Inner exception: {string innerException}</value>
+  </data>
+  <data name="Error_CustomPropertyDynamicValueValidation" xml:space="preserve">
+    <value>Custom property {string customPropertyName} value is invalid for dynamic validation: {string message}</value>
+  </data>
+  <data name="Error_CustomPropertyEmptyScript" xml:space="preserve">
+    <value>Script code cannot be empty.</value>
+  </data>
+  <data name="Error_CustomPropertyInvalidScriptSyntax" xml:space="preserve">
+    <value>Script code has syntax error.
+Inner exception: {string innerException}</value>
+  </data>
+  <data name="Error_CustomPropertyNotFound" xml:space="preserve">
+    <value>Custom property {string customPropertyName} in data domain {string dataDomainName} does not exist!</value>
+  </data>
+  <data name="Error_DynamicScriptEmptyScript" xml:space="preserve">
+    <value>Script code cannot be empty.</value>
+  </data>
+  <data name="Error_DynamicScriptInvalidScriptSyntax" xml:space="preserve">
+    <value>Script code has syntax error.
+Inner exception: {string innerException}</value>
+  </data>
+  <data name="Error_DynamicScriptInvalidResultValue" xml:space="preserve">
+    <value>Dynamic script validation result is invalid. Result value: {int resultValue}.</value>
+  </data>
+  <data name="Error_DynamicScriptInvocation" xml:space="preserve">
+    <value>Validation script invocation failed.
+Inner exception: {string innerException}</value>
+  </data>
+  <data name="Error_DynamicScriptValidationError" xml:space="preserve">
+    <value>Dynamic script validation returned with error.</value>
+  </data>
+  <data name="Error_DynamicScriptValidationWarning" xml:space="preserve">
+    <value>Dynamic script validation returned with warning.</value>
+  </data>
+  <data name="TaskState_Assigned" xml:space="preserve">
+    <value>Assigned</value>
+  </data>
+  <data name="TaskState_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="TaskState_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="TaskState_InProgress" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="TaskState_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="TaskState_Reopened" xml:space="preserve">
+    <value>Reopened</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Error_CustomPropertyGroupCannotBeDeleted" xml:space="preserve">
+    <value>Custom property group cannot be deleted because it has custom property that belongs to it.</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>[n/a]</value>
+  </data>
+  <data name="Error_CustomPropertyValueGreaterThanMaximum" xml:space="preserve">
+    <value>Property value is greater than the maximum limit.</value>
+  </data>
+  <data name="Error_CustomPropertyValueLesserThanMinimum" xml:space="preserve">
+    <value>Property value is lesser than the minimum limit.</value>
+  </data>
+  <data name="Error_DynamicScriptUnknownScriptLanguage" xml:space="preserve">
+    <value>Unknown script language.</value>
+  </data>
+  <data name="EmailNotificationAgent_Bcc" xml:space="preserve">
+    <value>Bcc</value>
+  </data>
+  <data name="EmailNotificationAgent_Cc" xml:space="preserve">
+    <value>Cc</value>
+  </data>
+  <data name="EmailNotificationAgent_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="EmailNotificationAgent_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+</root>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_LogObjectMDataNotFound" xml:space="preserve">
+    <value>Item {string itemNo} in data domain {string dataDomainName} cannot be found!</value>
+  </data>
+  <data name="Error_PostingFailed" xml:space="preserve">
+    <value>Posting failed!</value>
+  </data>
+  <data name="Error_ExplainedPostingFailed" xml:space="preserve">
+    <value>Posting failed! Reason: {string reason}</value>
+  </data>
+  <data name="Error_DiscreteInventoryViolation" xml:space="preserve">
+    <value>Discrete inventory handling of Item {string itemNo} is not allowed!</value>
+  </data>
+  <data name="Error_QuantitativeInventoryViolation" xml:space="preserve">
+    <value>Quantitative inventory handling of Item {string itemNo} is not allowed!</value>
+  </data>
+  <data name="Error_CreateUserLoginFailed" xml:space="preserve">
+    <value>Creating user login failed! Reason: {string reason}</value>
+  </data>
+  <data name="Error_LogObjectExists" xml:space="preserve">
+    <value>Log-ID with id: {string logId} already exists!</value>
+  </data>
+  <data name="Error_LogObjectMDataNotExists" xml:space="preserve">
+    <value>Log-ID MData with id: {int mdataId} does not exist!</value>
+  </data>
+  <data name="Error_CompanyNotExists" xml:space="preserve">
+    <value>Company with id: {string companyId} does not exist!</value>
+  </data>
+  <data name="Error_LocationViolation" xml:space="preserve">
+    <value>Location(s) must be given!</value>
+  </data>
+  <data name="Error_LogObjectNotExists" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} does not exist!</value>
+  </data>
+  <data name="Error_LogObjectStateViolation" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} must be in {string localizedLogObjectStateList} state!</value>
+  </data>
+  <data name="Error_LogObjectLoadStateViolation" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} must be in {string localizedLogObjectLoadStateList} used state!</value>
+  </data>
+  <data name="Error_QuantityViolation" xml:space="preserve">
+    <value>Quantity must be above zero!</value>
+  </data>
+  <data name="Error_LogObjectQuantityViolation" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} has lower quantity than {double unloadQuantity}!</value>
+  </data>
+  <data name="LogObjectState_ACTIVE" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="LogObjectState_ELIMINATED" xml:space="preserve">
+    <value>Eliminated</value>
+  </data>
+  <data name="LogObjectState_ON_ROAD" xml:space="preserve">
+    <value>On road</value>
+  </data>
+  <data name="LogObjectLoadState_EMPTY" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="LogObjectLoadState_FULL" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="LogObjectLoadState_PARTIAL" xml:space="preserve">
+    <value>Partial</value>
+  </data>
+  <data name="Error_AmbigousLogObjectCustomPropertyValue" xml:space="preserve">
+    <value>Values for Log-ID custom property {string customPropertyName} are ambigous!</value>
+  </data>
+  <data name="Error_LogObjectCustomPropertyNotExists" xml:space="preserve">
+    <value>Log-ID custom property assignment for custom property: {string customPropertyName} does not exist!</value>
+  </data>
+  <data name="Error_LogObjectCustomPropertyValueIsNull" xml:space="preserve">
+    <value>Please add the Log-Object custom properties (Value for {string customPropertyName} must be given)</value>
+  </data>
+  <data name="Error_MissingLogObjectCustomPropertyValue" xml:space="preserve">
+    <value>Value for Log-ID custom property {string customPropertyName} is missing!</value>
+  </data>
+  <data name="Error_LogObjectMDataGroupNotExists" xml:space="preserve">
+    <value>Log-ID group with id: {int groupId} does not exist!</value>
+  </data>
+  <data name="Error_PostingSubTypeViolation" xml:space="preserve">
+    <value>Posting sub type {string postingSubTypeName} does not match the current posting type!</value>
+  </data>
+  <data name="Error_PostingSubTypeNotExists" xml:space="preserve">
+    <value>Posting sub type with id: {int postingSubTypeId} does not exist!</value>
+  </data>
+  <data name="Error_StorageNotExists" xml:space="preserve">
+    <value>Storage with id: {int storageId} does not exist!</value>
+  </data>
+  <data name="Error_LogObjectSubStateNotExists" xml:space="preserve">
+    <value>Log-ID sub state with id: {int logObjectSubStateId} does not exist!</value>
+  </data>
+  <data name="Error_LogObjectSubStateViolation" xml:space="preserve">
+    <value>Log-ID sub state {string logObjectSubStateName} does not match the current state!</value>
+  </data>
+  <data name="Error_SiteNotExists" xml:space="preserve">
+    <value>Site with id: {int siteId} does not exist!</value>
+  </data>
+  <data name="Error_LogObjectUOMViolation" xml:space="preserve">
+    <value>The unit of measure {string uom} does not match the unit of measure of Log-ID with id: {int logObjectId}!</value>
+  </data>
+  <data name="Error_LogObjectContentMismatch" xml:space="preserve">
+    <value>Log-ID with id: {int containerId} does not contain Log-ID with id: {contentId}!</value>
+  </data>
+  <data name="Error_LogObjectSplitViolation" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} cannot be split!</value>
+  </data>
+  <data name="Error_CompanyDefaultSiteViolation" xml:space="preserve">
+    <value>Site {int siteId} can not be delete because it is the company default site.</value>
+  </data>
+  <data name="Error_StorageCoordinateExists" xml:space="preserve">
+    <value>The given storage Coordinate [{string coordinate}] under the site "{string siteName}" already exists.</value>
+  </data>
+  <data name="Membership" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="Error_RouteExists" xml:space="preserve">
+    <value>The given route [{string routeNo}] under the site "{string siteName}" already exists.</value>
+  </data>
+  <data name="Error_AmbigousInternalCustomPropertyValue" xml:space="preserve">
+    <value>Values for internal custom property {string customPropertyName} are ambigous!</value>
+  </data>
+  <data name="Error_InternalCustomPropertyNotExists" xml:space="preserve">
+    <value>Internal custom property with ID: {int customPropertyId} does not exist!</value>
+  </data>
+  <data name="Error_InternalCustomPropertyNotInternalException" xml:space="preserve">
+    <value>Custom property: {string customPropertyName} is not internal!</value>
+  </data>
+  <data name="Error_InternalCustomPropertyValueIsNull" xml:space="preserve">
+    <value>Value for internal custom property {string customPropertyName} cannot be null!</value>
+  </data>
+  <data name="Error_LogObjectCustomPropertyExists" xml:space="preserve">
+    <value>Log-ID custom property assignment for custom property: {string customPropertyName} does exist, therefore it cannot be saves as internal custom property!</value>
+  </data>
+  <data name="Error_StorageCustomIdExists" xml:space="preserve">
+    <value>The given storage Tag-ID [{string customId}] under this domain already exists.</value>
+  </data>
+  <data name="Error_UserCustomIdExists" xml:space="preserve">
+    <value>The given user Tag-ID [{string customId}] under this domain already exists.</value>
+  </data>
+  <data name="Error_CustomPropertyNotExists" xml:space="preserve">
+    <value>Custom property with ID: {int customPropertyId} does not exist!</value>
+  </data>
+  <data name="Error_AmbiguousLogObject" xml:space="preserve">
+    <value>Log-ID is ambigous!</value>
+  </data>
+  <data name="Error_LogObjectNotFound" xml:space="preserve">
+    <value>Log-ID does not exist!</value>
+  </data>
+  <data name="Error_StorageCoordinateNotExists" xml:space="preserve">
+    <value>The given storage Coordinate [{string coordinate}] under the site "{string siteName}" does not  exist.</value>
+  </data>
+  <data name="Error_ImportCompanyNotFound" xml:space="preserve">
+    <value>Imported company '{string companyNo}' can not be found!</value>
+  </data>
+  <data name="Error_ImportCSVParseErrorInfo" xml:space="preserve">
+    <value>Line: {int lineNumber}; Error: {string errorMessage}</value>
+  </data>
+  <data name="Error_ImportCSVParseErrorSummary" xml:space="preserve">
+    <value>CSV parsing found {int errorCount} error(s). Error details: {string errorDetails}
+</value>
+  </data>
+  <data name="Error_ImportCustomPropertyNotFound" xml:space="preserve">
+    <value>Imported custom property '{string customPropertyName}' can not be found!</value>
+  </data>
+  <data name="Error_ImportLogObjectCustomPropertyValueSyntax" xml:space="preserve">
+    <value>Custom property value syntax error: {string customPropertyValueText}!</value>
+  </data>
+  <data name="Error_ImportLogObjectMDataNotFound" xml:space="preserve">
+    <value>Imported item '{string itemNo}' can not be found!</value>
+  </data>
+  <data name="Error_ImportLogObjectNotFound" xml:space="preserve">
+    <value>Imported Log-Object '{string customId}' can not be found!</value>
+  </data>
+  <data name="Error_ImportSessionClosed" xml:space="preserve">
+    <value>Import session with ID '{int importSessionId}' is already closed!</value>
+  </data>
+  <data name="Error_ImportSessionNotExists" xml:space="preserve">
+    <value>Import session with ID '{int importSessionId}' does not exist!</value>
+  </data>
+  <data name="Error_ImportSiteNotFound" xml:space="preserve">
+    <value>Imported site '{string siteNo}' can not be found!</value>
+  </data>
+  <data name="Error_ImportStorageNotFound" xml:space="preserve">
+    <value>Imported storage '{string coordinate}' in site '{string siteNo}' can not be found!</value>
+  </data>
+  <data name="Error_LogObjectScriptingError" xml:space="preserve">
+    <value>Log-ID '{string logId}' is not eligible: {string message}</value>
+  </data>
+  <data name="Error_LogObjectScriptingWarning" xml:space="preserve">
+    <value>Log-ID '{string logId}' has been validated with warning: {string message}</value>
+  </data>
+  <data name="Error_ExtensionPointNotSuitableForAlterationScript" xml:space="preserve">
+    <value>Extension point is not suitable for alteration script.</value>
+  </data>
+  <data name="Error_CompanyNotFound" xml:space="preserve">
+    <value>Company {string companyName} cannot be found!</value>
+  </data>
+  <data name="PartnerAdministrator" xml:space="preserve">
+    <value>PartnerAdministrator</value>
+  </data>
+  <data name="Error_ExportCSVErrorInfo" xml:space="preserve">
+    <value>Line: {int lineNumber}; Error: {string errorMessage}</value>
+  </data>
+  <data name="Error_ExportCSVErrorSummary" xml:space="preserve">
+    <value>CSV export found {int errorCount} error(s). Error details: {string errorDetails}</value>
+  </data>
+  <data name="Error_StoragesNotInSameSite" xml:space="preserve">
+    <value>Storages with Coordinates:  [{string sourceStorageCoordinate}] and  [{string targetStorageCoordinate}]  are not in the same site.</value>
+  </data>
+  <data name="UnresolvedLogObjectDescriptionTemplateReference" xml:space="preserve">
+    <value>{{?? unresolved reference}}</value>
+  </data>
+  <data name="Error_ImportRouteNotFound" xml:space="preserve">
+    <value>Imported route '{string routeNo}' in site '{string siteNo}' can not be found!</value>
+  </data>
+  <data name="Error_ImportUserGroupNotFound" xml:space="preserve">
+    <value>Imported user group '{string userGroupName}' can not be found!</value>
+  </data>
+  <data name="Error_ImportUserNotFound" xml:space="preserve">
+    <value>Imported user '{string userName}' can not be found!</value>
+  </data>
+  <data name="Error_LogObjectOwnershipViolation" xml:space="preserve">
+    <value>Log-ID with id: {int logObjectId} has invalid ownership data.</value>
+  </data>
+  <data name="Error_LogObjectMeltPropertyViolation" xml:space="preserve">
+    <value>Log-Objects with ids {int logObjectId}, {int targetLogObjectId} and cannot be melted!</value>
+  </data>
+  <data name="Error_CompanyLinkStateViolation" xml:space="preserve">
+    <value>CompanyLink with id: {int companyLinkId} should has a state from these: {string allowedStatesAsString}</value>
+  </data>
+  <data name="Error_ImportLogObjectMDataGroupNotFound" xml:space="preserve">
+    <value>Imported mdata group '{string name}' can not be found!</value>
+  </data>
+  <data name="Error_ImportCustomPropertyValueData" xml:space="preserve">
+    <value>The value '{string valueAsString}' for custom property '{string customPropertyName}' is not a valid value!</value>
+  </data>
+  <data name="Error_BillOfMaterialNoExists" xml:space="preserve">
+    <value>The given resource list no [{string bomNo}] under this domain already exists.</value>
+  </data>
+</root>
